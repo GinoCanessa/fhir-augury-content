@@ -41,6 +41,10 @@ This index lists all **34** prepared tickets for the **Pharmacy** work group, gr
 
 *29 ticket(s) targeting the **US Medication FHIR Implementation Guide (FHIR)** specification.*
 
+#### Related Group: FHIR-29451
+
+> FHIR-29451 and FHIR-29452, FHIR-29453, FHIR-29454, FHIR-29455, FHIR-29457, FHIR-29458, FHIR-29459, FHIR-29460, FHIR-29461, FHIR-29462, FHIR-29463, FHIR-29464, FHIR-29465, FHIR-29466, FHIR-29471, FHIR-29472, FHIR-29473, FHIR-29474, FHIR-29475, FHIR-29477, FHIR-29479, FHIR-29480, FHIR-29481, FHIR-29483, FHIR-29526, FHIR-29529 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-29451 | The standards should probably not mandate sending SSN | Triaged | 2020-10-26 | [FHIR-29451](./FHIR-29451.md) · [Jira](https://jira.hl7.org/browse/FHIR-29451) |
@@ -68,10 +72,15 @@ This index lists all **34** prepared tickets for the **Pharmacy** work group, gr
 | FHIR-29480 | It might be useful for this ballot to mention workflow vs discrete data integration | Triaged | 2020-10-26 | [FHIR-29480](./FHIR-29480.md) · [Jira](https://jira.hl7.org/browse/FHIR-29480) |
 | FHIR-29481 | The PDMP requester is not able to refine query parameters in the case of a non-unique patient match | Triaged | 2020-10-26 | [FHIR-29481](./FHIR-29481.md) · [Jira](https://jira.hl7.org/browse/FHIR-29481) |
 | FHIR-29483 | Ticket Preparation Report | Triaged | 2020-10-26 | [FHIR-29483](./FHIR-29483.md) · [Jira](https://jira.hl7.org/browse/FHIR-29483) |
-| FHIR-29485 | Suggested correction regarding figures, notes text and images | Triaged | 2020-10-26 | [FHIR-29485](./FHIR-29485.md) · [Jira](https://jira.hl7.org/browse/FHIR-29485) |
-| FHIR-29486 | The various diagrams in figure 5A and 5B are redundant and confusing. | Triaged | 2020-10-26 | [FHIR-29486](./FHIR-29486.md) · [Jira](https://jira.hl7.org/browse/FHIR-29486) |
 | FHIR-29526 | API example (not "exact") and other edits | Triaged | 2020-10-26 | [FHIR-29526](./FHIR-29526.md) · [Jira](https://jira.hl7.org/browse/FHIR-29526) |
 | FHIR-29529 | SCRIPT mapping version | Triaged | 2020-10-26 | [FHIR-29529](./FHIR-29529.md) · [Jira](https://jira.hl7.org/browse/FHIR-29529) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-29485 | Suggested correction regarding figures, notes text and images | Triaged | 2020-10-26 | [FHIR-29485](./FHIR-29485.md) · [Jira](https://jira.hl7.org/browse/FHIR-29485) |
+| FHIR-29486 | The various diagrams in figure 5A and 5B are redundant and confusing. | Triaged | 2020-10-26 | [FHIR-29486](./FHIR-29486.md) · [Jira](https://jira.hl7.org/browse/FHIR-29486) |
 
 ---
 

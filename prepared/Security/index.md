@@ -29,10 +29,19 @@ This index lists all **9** prepared tickets for the **Security** work group, gro
 
 *4 ticket(s) targeting the **FHIR Data Segmentation for Privacy (FHIR)** specification.*
 
+#### Related Group: FHIR-27994
+
+> FHIR-27994 and FHIR-28020 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-27994 | How will jurisdictions communicate their confidentiality protection levels in a computable fashion? | Triaged | 2020-07-14 | [FHIR-27994](./FHIR-27994.md) · [Jira](https://jira.hl7.org/browse/FHIR-27994) |
 | FHIR-28020 | Could one of these potential use cases be included as an example? | Triaged | 2020-07-14 | [FHIR-28020](./FHIR-28020.md) · [Jira](https://jira.hl7.org/browse/FHIR-28020) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
 | FHIR-35798 | Typo: "CHLP" should be "CHPL" | Triaged | 2022-01-13 | [FHIR-35798](./FHIR-35798.md) · [Jira](https://jira.hl7.org/browse/FHIR-35798) |
 | FHIR-51001 | History page does not indicate correct CI build | Triaged | 2025-05-28 | [FHIR-51001](./FHIR-51001.md) · [Jira](https://jira.hl7.org/browse/FHIR-51001) |
 

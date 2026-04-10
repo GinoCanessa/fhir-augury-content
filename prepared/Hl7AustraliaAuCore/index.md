@@ -17,11 +17,20 @@ This index lists all **6** prepared tickets for the **Hl7Australia Au Core** wor
 
 *3 ticket(s) targeting the **AU Patient Summary (FHIR)** specification.*
 
+#### Related Group: FHIR-56125
+
+> FHIR-56125 and FHIR-56128 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-56125 | Section 4.6.1 profile comparison :: 'No equivalent profile for comparison' can cause confusion | Triaged | 2026-03-19 | [FHIR-56125](./FHIR-56125.md) · [Jira](https://jira.hl7.org/browse/FHIR-56125) |
+| FHIR-56128 | AU PS Composition :: referencing base FHIR resources instead of AU profiles :: need explanatory notes | Triaged | 2026-03-19 | [FHIR-56128](./FHIR-56128.md) · [Jira](https://jira.hl7.org/browse/FHIR-56128) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-56124 | Section 3.3 - Figure 3 The AU PS Passport :: lacks context and description | Triaged | 2026-03-19 | [FHIR-56124](./FHIR-56124.md) · [Jira](https://jira.hl7.org/browse/FHIR-56124) |
-| FHIR-56125 | Section 4.6.1 profile comparison :: 'No equivalent profile for comparison' can cause confusion | Triaged | 2026-03-19 | [FHIR-56125](./FHIR-56125.md) · [Jira](https://jira.hl7.org/browse/FHIR-56125) |
-| FHIR-56128 | AU PS Composition :: referencing base FHIR resources instead of AU profiles :: need explanatory notes | Triaged | 2026-03-19 | [FHIR-56128](./FHIR-56128.md) · [Jira](https://jira.hl7.org/browse/FHIR-56128) |
 
 ---
 

@@ -96,11 +96,20 @@ This index lists all **40** planned tickets for the **Clinical Decision Support*
 
 *5 ticket(s) affecting [HL7/cqf-recommendations](https://github.com/HL7/cqf-recommendations).*
 
+#### Related Group: FHIR-24138
+
+> FHIR-24138 and FHIR-24140 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-24138 | General extension? - CPG #53 | Resolved - change required | 2019-09-15 | [FHIR-24138](./FHIR-24138.md) · [Jira](https://jira.hl7.org/browse/FHIR-24138) |
-| FHIR-24233 | Personas vs Patient - CPG #120 | Pending external coordination. | 2019-09-15 | [FHIR-24233](./FHIR-24233.md) · [Jira](https://jira.hl7.org/browse/FHIR-24233) |
 | FHIR-24140 | General extension? — CPG #54 | Resolved - change required | 2020-01-29 | [FHIR-24140](./FHIR-24140.md) · [Jira](https://jira.hl7.org/browse/FHIR-24140) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-24233 | Personas vs Patient - CPG #120 | Pending external coordination. | 2019-09-15 | [FHIR-24233](./FHIR-24233.md) · [Jira](https://jira.hl7.org/browse/FHIR-24233) |
 | FHIR-26910 | Define unknown-behavior extension | Resolved – change required | 2020-04-22 | [FHIR-26910](./FHIR-26910.md) · [Jira](https://jira.hl7.org/browse/FHIR-26910) |
 | FHIR-27922 | Add discussion of mapping between actor/participant and BPMN swimlane/pool | Resolved – change required | 2020-07-06 | [FHIR-27922](./FHIR-27922.md) · [Jira](https://jira.hl7.org/browse/FHIR-27922) |
 
@@ -108,20 +117,38 @@ This index lists all **40** planned tickets for the **Clinical Decision Support*
 
 *3 ticket(s) affecting [HL7/fhir](https://github.com/HL7/fhir).*
 
+#### Related Group: FHIR-24138
+
+> FHIR-24138 and FHIR-24140 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-24138 | General extension? - CPG #53 | Resolved - change required | 2019-09-15 | [FHIR-24138](./FHIR-24138.md) · [Jira](https://jira.hl7.org/browse/FHIR-24138) |
 | FHIR-24140 | General extension? — CPG #54 | Resolved - change required | 2020-01-29 | [FHIR-24140](./FHIR-24140.md) · [Jira](https://jira.hl7.org/browse/FHIR-24140) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
 | FHIR-27150 | Define code system and extension to support deliveryAspect | Resolved – change required | 2020-05-17 | [FHIR-27150](./FHIR-27150.md) · [Jira](https://jira.hl7.org/browse/FHIR-27150) |
 
 ### HL7/fhir-extensions
 
 *3 ticket(s) affecting [HL7/fhir-extensions](https://github.com/HL7/fhir-extensions).*
 
+#### Related Group: FHIR-24138
+
+> FHIR-24138 and FHIR-24140 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-24138 | General extension? - CPG #53 | Resolved - change required | 2019-09-15 | [FHIR-24138](./FHIR-24138.md) · [Jira](https://jira.hl7.org/browse/FHIR-24138) |
 | FHIR-24140 | General extension? — CPG #54 | Resolved - change required | 2020-01-29 | [FHIR-24140](./FHIR-24140.md) · [Jira](https://jira.hl7.org/browse/FHIR-24140) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
 | FHIR-27150 | Define code system and extension to support deliveryAspect | Resolved – change required | 2020-05-17 | [FHIR-27150](./FHIR-27150.md) · [Jira](https://jira.hl7.org/browse/FHIR-27150) |
 
 ---
@@ -217,15 +244,31 @@ This index lists all **40** planned tickets for the **Clinical Decision Support*
 
 *These tickets do not reference a specific repository. Review each ticket to determine the target artifact.*
 
+#### Related Group: FHIR-25746
+
+> FHIR-25746 and FHIR-55564 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-25746 | ActivityDefinition.Topic valueset should categorize the content of the activity | Resolved — change required | 2020-02-02 | [FHIR-25746](./FHIR-25746.md) · [Jira](https://jira.hl7.org/browse/FHIR-25746) |
+| FHIR-55564 | Deprecated elements should be withdrawn where applicable in R6 (CDS) | Resolved — change required | 2026-02-02 | [FHIR-55564](./FHIR-55564.md) · [Jira](https://jira.hl7.org/browse/FHIR-55564) |
+
+#### Related Group: FHIR-55072
+
+> FHIR-55072 and FHIR-55077 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-55072 | Potentially re-useable THO-candidate value sets in resource RequestOrchestration | Resolved – change required | — | [FHIR-55072](./FHIR-55072.md) · [Jira](https://jira.hl7.org/browse/FHIR-55072) |
+| FHIR-55077 | Potentially re-useable THO-candidate value sets in resource RiskAssessment | Resolved — change required | — | [FHIR-55077](./FHIR-55077.md) · [Jira](https://jira.hl7.org/browse/FHIR-55077) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-16772 | An example should be added of a Plan Definition that refers to a questionnaire and generates results based on the results | Resolved – change required | 2018-05-12 | [FHIR-16772](./FHIR-16772.md) · [Jira](https://jira.hl7.org/browse/FHIR-16772) |
 | FHIR-18847 | Add specification for GuidanceResponse to PlanDefinition - STU #71 | Resolved - change required | 2018-09-29 | [FHIR-18847](./FHIR-18847.md) · [Jira](https://jira.hl7.org/browse/FHIR-18847) |
-| FHIR-25746 | ActivityDefinition.Topic valueset should categorize the content of the activity | Resolved — change required | 2020-02-02 | [FHIR-25746](./FHIR-25746.md) · [Jira](https://jira.hl7.org/browse/FHIR-25746) |
-| FHIR-55564 | Deprecated elements should be withdrawn where applicable in R6 (CDS) | Resolved — change required | 2026-02-02 | [FHIR-55564](./FHIR-55564.md) · [Jira](https://jira.hl7.org/browse/FHIR-55564) |
 | FHIR-53699 | Change binding for Evidence.studyDesign | Open (approved by brynrhodes, review comment pending from lmckenzi) | 2026-03-18 | [FHIR-53699](./FHIR-53699.md) · [Jira](https://jira.hl7.org/browse/FHIR-53699) |
-| FHIR-55072 | Potentially re-useable THO-candidate value sets in resource RequestOrchestration | Resolved – change required | — | [FHIR-55072](./FHIR-55072.md) · [Jira](https://jira.hl7.org/browse/FHIR-55072) |
-| FHIR-55077 | Potentially re-useable THO-candidate value sets in resource RiskAssessment | Resolved — change required | — | [FHIR-55077](./FHIR-55077.md) · [Jira](https://jira.hl7.org/browse/FHIR-55077) |
 
 ### HL7/fhir
 

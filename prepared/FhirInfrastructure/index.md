@@ -33,6 +33,17 @@ This index lists all **62** prepared tickets for the **Fhir Infrastructure** wor
 
 *27 ticket(s) targeting the **FHIR Core (FHIR)** specification.*
 
+#### Related Group: FHIR-53898
+
+> FHIR-53898 and FHIR-54820 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-53898 | Link to Testing Incubator broken | Triaged | 2026-01-09 | [FHIR-53898](./FHIR-53898.md) · [Jira](https://jira.hl7.org/browse/FHIR-53898) |
+| FHIR-54820 | Broken link to Testing Resources | Triaged | 2026-01-19 | [FHIR-54820](./FHIR-54820.md) · [Jira](https://jira.hl7.org/browse/FHIR-54820) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-28443 | Consider adding operations for use with FHIRPath to compare date, dateTime and instant with Period as for FHIR Search | Triaged | 2020-09-07 | [FHIR-28443](./FHIR-28443.md) · [Jira](https://jira.hl7.org/browse/FHIR-28443) |
@@ -50,7 +61,6 @@ This index lists all **62** prepared tickets for the **Fhir Infrastructure** wor
 | FHIR-53761 | Improve documentation of new search parameter type | Triaged | 2025-12-30 | [FHIR-53761](./FHIR-53761.md) · [Jira](https://jira.hl7.org/browse/FHIR-53761) |
 | FHIR-53810 | FHIR R6 should address the referred signature comments | Triaged | 2026-01-05 | [FHIR-53810](./FHIR-53810.md) · [Jira](https://jira.hl7.org/browse/FHIR-53810) |
 | FHIR-53819 | Link issue in Home page | Triaged | 2026-01-06 | [FHIR-53819](./FHIR-53819.md) · [Jira](https://jira.hl7.org/browse/FHIR-53819) |
-| FHIR-53898 | Link to Testing Incubator broken | Triaged | 2026-01-09 | [FHIR-53898](./FHIR-53898.md) · [Jira](https://jira.hl7.org/browse/FHIR-53898) |
 | FHIR-53914 | Edits to the Signing Bundles sections | Triaged | 2026-01-09 | [FHIR-53914](./FHIR-53914.md) · [Jira](https://jira.hl7.org/browse/FHIR-53914) |
 | FHIR-53961 | `elementDefinition()` should be clearer about where this can be used, and what it is returning | Triaged | 2026-01-12 | [FHIR-53961](./FHIR-53961.md) · [Jira](https://jira.hl7.org/browse/FHIR-53961) |
 | FHIR-53964 | ~ Equivalence states to ignore `id` elements, is that also the case for ElementDefinitions? | Triaged | 2026-01-12 | [FHIR-53964](./FHIR-53964.md) · [Jira](https://jira.hl7.org/browse/FHIR-53964) |
@@ -58,7 +68,6 @@ This index lists all **62** prepared tickets for the **Fhir Infrastructure** wor
 | FHIR-54011 | Clarify constraint for issues in document Bundle | Triaged | 2026-01-12 | [FHIR-54011](./FHIR-54011.md) · [Jira](https://jira.hl7.org/browse/FHIR-54011) |
 | FHIR-54031 | OperationOutcome limited-filter needs clarification with regard to self link | Triaged | 2026-01-12 | [FHIR-54031](./FHIR-54031.md) · [Jira](https://jira.hl7.org/browse/FHIR-54031) |
 | FHIR-54742 | FHIRpath - General Service API should be moved outside core | Triaged | 2026-01-19 | [FHIR-54742](./FHIR-54742.md) · [Jira](https://jira.hl7.org/browse/FHIR-54742) |
-| FHIR-54820 | Broken link to Testing Resources | Triaged | 2026-01-19 | [FHIR-54820](./FHIR-54820.md) · [Jira](https://jira.hl7.org/browse/FHIR-54820) |
 | FHIR-54856 | Subscription optional coded elements need to describe default behavior | Triaged | 2026-01-19 | [FHIR-54856](./FHIR-54856.md) · [Jira](https://jira.hl7.org/browse/FHIR-54856) |
 | FHIR-55379 | Extend tutorial to cover more of FMLs features | Triaged | 2026-01-20 | [FHIR-55379](./FHIR-55379.md) · [Jira](https://jira.hl7.org/browse/FHIR-55379) |
 | FHIR-56291 | Unspecified separator and escape character for searching | Triaged | 2026-04-07 | [FHIR-56291](./FHIR-56291.md) · [Jira](https://jira.hl7.org/browse/FHIR-56291) |
@@ -89,6 +98,10 @@ This index lists all **62** prepared tickets for the **Fhir Infrastructure** wor
 
 *6 ticket(s) targeting the **SMART Web Messaging (FHIR)** specification.*
 
+#### Related Group: FHIR-29357
+
+> FHIR-29357 and FHIR-29392, FHIR-29398, FHIR-30572, FHIR-30692, FHIR-31052 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-29357 | Discover supported events | Triaged | 2020-10-21 | [FHIR-29357](./FHIR-29357.md) · [Jira](https://jira.hl7.org/browse/FHIR-29357) |
@@ -118,11 +131,21 @@ This index lists all **62** prepared tickets for the **Fhir Infrastructure** wor
 
 *14 ticket(s) targeting the **Shorthand (FHIR)** specification.*
 
+#### Related Group: FHIR-27282
+
+> FHIR-27282 and FHIR-27291, FHIR-30708 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-27282 | Consider a syntax to add to / access the end of an array | Triaged | 2020-05-19 | [FHIR-27282](./FHIR-27282.md) · [Jira](https://jira.hl7.org/browse/FHIR-27282) |
+| FHIR-27291 | Grammar for lists | Triaged | 2020-05-19 | [FHIR-27291](./FHIR-27291.md) · [Jira](https://jira.hl7.org/browse/FHIR-27291) |
+| FHIR-30708 | Confirm soft indexing example | Triaged | 2021-01-29 | [FHIR-30708](./FHIR-30708.md) · [Jira](https://jira.hl7.org/browse/FHIR-30708) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-27215 | Future use, include OperationDefinitions. | Triaged | 2020-05-19 | [FHIR-27215](./FHIR-27215.md) · [Jira](https://jira.hl7.org/browse/FHIR-27215) |
-| FHIR-27282 | Consider a syntax to add to / access the end of an array | Triaged | 2020-05-19 | [FHIR-27282](./FHIR-27282.md) · [Jira](https://jira.hl7.org/browse/FHIR-27282) |
-| FHIR-27291 | Grammar for lists | Triaged | 2020-05-19 | [FHIR-27291](./FHIR-27291.md) · [Jira](https://jira.hl7.org/browse/FHIR-27291) |
 | FHIR-27292 | Doc should be more pedagogical | Triaged | 2020-05-19 | [FHIR-27292](./FHIR-27292.md) · [Jira](https://jira.hl7.org/browse/FHIR-27292) |
 | FHIR-27295 | Shorthand for Simple Value Sets | Triaged | 2020-05-19 | [FHIR-27295](./FHIR-27295.md) · [Jira](https://jira.hl7.org/browse/FHIR-27295) |
 | FHIR-27296 | Aliases inside Aliases | Triaged | 2020-05-19 | [FHIR-27296](./FHIR-27296.md) · [Jira](https://jira.hl7.org/browse/FHIR-27296) |
@@ -130,7 +153,6 @@ This index lists all **62** prepared tickets for the **Fhir Infrastructure** wor
 | FHIR-29400 | Add 1.0.0 to versions in Jira | Triaged | 2020-10-21 | [FHIR-29400](./FHIR-29400.md) · [Jira](https://jira.hl7.org/browse/FHIR-29400) |
 | FHIR-29550 | FSH should document application of required fixed values in instance generation | Triaged | 2020-10-26 | [FHIR-29550](./FHIR-29550.md) · [Jira](https://jira.hl7.org/browse/FHIR-29550) |
 | FHIR-29657 | Standalone extension clarification | Triaged | 2020-11-05 | [FHIR-29657](./FHIR-29657.md) · [Jira](https://jira.hl7.org/browse/FHIR-29657) |
-| FHIR-30708 | Confirm soft indexing example | Triaged | 2021-01-29 | [FHIR-30708](./FHIR-30708.md) · [Jira](https://jira.hl7.org/browse/FHIR-30708) |
 | FHIR-33552 | Why is datatype support TU? | Triaged | 2021-09-13 | [FHIR-33552](./FHIR-33552.md) · [Jira](https://jira.hl7.org/browse/FHIR-33552) |
 | FHIR-33559 | Autopopulate display | Triaged | 2021-09-13 | [FHIR-33559](./FHIR-33559.md) · [Jira](https://jira.hl7.org/browse/FHIR-33559) |
 | FHIR-33560 | Autopopulate UCUM in Quantities | Triaged | 2021-09-13 | [FHIR-33560](./FHIR-33560.md) · [Jira](https://jira.hl7.org/browse/FHIR-33560) |

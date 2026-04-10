@@ -21,6 +21,17 @@ This index lists all **30** prepared tickets for the **Hl7Australia Fhir** work 
 
 *15 ticket(s) targeting the **AU Base (FHIR)** specification.*
 
+#### Related Group: FHIR-54923
+
+> FHIR-54923 and FHIR-54928 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-54923 | Create HSP-O profile of Identifier | Triaged | 2026-01-19 | [FHIR-54923](./FHIR-54923.md) · [Jira](https://jira.hl7.org/browse/FHIR-54923) |
+| FHIR-54928 | Create HAE profile of Identifier | Triaged | 2026-01-20 | [FHIR-54928](./FHIR-54928.md) · [Jira](https://jira.hl7.org/browse/FHIR-54928) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-46050 | Patient invariants are poorly expressed | Triaged | 2024-05-30 | [FHIR-46050](./FHIR-46050.md) · [Jira](https://jira.hl7.org/browse/FHIR-46050) |
@@ -36,8 +47,6 @@ This index lists all **30** prepared tickets for the **Hl7Australia Fhir** work 
 | FHIR-52998 | Location.physicalType includes VI code :: suggest remove | Triaged | 2025-09-29 | [FHIR-52998](./FHIR-52998.md) · [Jira](https://jira.hl7.org/browse/FHIR-52998) |
 | FHIR-53071 | Extend Closing the Gap Extension to FHIR Organization Resource | Triaged | 2025-10-07 | [FHIR-53071](./FHIR-53071.md) · [Jira](https://jira.hl7.org/browse/FHIR-53071) |
 | FHIR-53415 | Needing to add a code to "Service Provision Conditions Australian Concepts" CodeSystem | Triaged | 2025-11-10 | [FHIR-53415](./FHIR-53415.md) · [Jira](https://jira.hl7.org/browse/FHIR-53415) |
-| FHIR-54923 | Create HSP-O profile of Identifier | Triaged | 2026-01-19 | [FHIR-54923](./FHIR-54923.md) · [Jira](https://jira.hl7.org/browse/FHIR-54923) |
-| FHIR-54928 | Create HAE profile of Identifier | Triaged | 2026-01-20 | [FHIR-54928](./FHIR-54928.md) · [Jira](https://jira.hl7.org/browse/FHIR-54928) |
 
 ---
 
@@ -78,14 +87,23 @@ This index lists all **30** prepared tickets for the **Hl7Australia Fhir** work 
 
 *6 ticket(s) targeting the **AU eRequesting (FHIR)** specification.*
 
+#### Related Group: FHIR-48811
+
+> FHIR-48811 and FHIR-48812, FHIR-48813 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-48811 | Review eRequesting ServiceRequest obligations in light of FHIR-47141 | Triaged | 2024-11-12 | [FHIR-48811](./FHIR-48811.md) · [Jira](https://jira.hl7.org/browse/FHIR-48811) |
+| FHIR-48812 | Review AU eRequesting Server Actor definition in light of FHIR-47141 | Triaged | 2024-11-12 | [FHIR-48812](./FHIR-48812.md) · [Jira](https://jira.hl7.org/browse/FHIR-48812) |
+| FHIR-48813 | Review AU eRequesting Server CapabilityStatement definition in light of FHIR-47141 | Triaged | 2024-11-12 | [FHIR-48813](./FHIR-48813.md) · [Jira](https://jira.hl7.org/browse/FHIR-48813) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-46357 | Suggest addition of ServiceRequest.focus extension to AU Diagnostic Request | Triaged | 2024-07-09 | [FHIR-46357](./FHIR-46357.md) · [Jira](https://jira.hl7.org/browse/FHIR-46357) |
 | FHIR-46515 | disable doNotPerform | Triaged | 2024-08-01 | [FHIR-46515](./FHIR-46515.md) · [Jira](https://jira.hl7.org/browse/FHIR-46515) |
 | FHIR-48663 | Undefined meaning of Must Support for referenced AU Core profiles | Triaged | 2024-10-17 | [FHIR-48663](./FHIR-48663.md) · [Jira](https://jira.hl7.org/browse/FHIR-48663) |
-| FHIR-48811 | Review eRequesting ServiceRequest obligations in light of FHIR-47141 | Triaged | 2024-11-12 | [FHIR-48811](./FHIR-48811.md) · [Jira](https://jira.hl7.org/browse/FHIR-48811) |
-| FHIR-48812 | Review AU eRequesting Server Actor definition in light of FHIR-47141 | Triaged | 2024-11-12 | [FHIR-48812](./FHIR-48812.md) · [Jira](https://jira.hl7.org/browse/FHIR-48812) |
-| FHIR-48813 | Review AU eRequesting Server CapabilityStatement definition in light of FHIR-47141 | Triaged | 2024-11-12 | [FHIR-48813](./FHIR-48813.md) · [Jira](https://jira.hl7.org/browse/FHIR-48813) |
 
 ---
 

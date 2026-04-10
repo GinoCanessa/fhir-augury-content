@@ -130,7 +130,7 @@ def parse_ticket(filepath: Path) -> TicketInfo:
             heading_text = stripped.lstrip("#").strip().lower()
             section = heading_text
             in_prereqs = "prerequisite" in heading_text
-            in_related = "related ticket" in heading_text
+            in_related = "related ticket" in heading_text or "related jira" in heading_text
             in_affected_repos = (
                 "affected repositor" in heading_text
                 or "affected repo" in heading_text
@@ -227,16 +227,28 @@ def _sort_date(t: TicketInfo) -> str:
     return t.resolved or t.created or t.updated or "9999-99-99"
 
 
+def _get_local_links(t: TicketInfo, local_keys: set[str]) -> set[str]:
+    """Return all local ticket keys that this ticket references
+    (prerequisites + related tickets that are in the same directory)."""
+    links: set[str] = set()
+    for p in t.prerequisites:
+        if p in local_keys and p != t.key:
+            links.add(p)
+    for r in t.related_tickets:
+        if r in local_keys and r != t.key:
+            links.add(r)
+    return links
+
+
 def _topo_sort(tickets: list[TicketInfo]) -> list[TicketInfo]:
     """
     Topological sort tickets by prerequisites/related-tickets within the list,
-    falling back to date order for ties. Returns dependency groups as a list of
-    (root_ticket | None, [tickets]) tuples via `dependency_groups`.
+    falling back to date order for ties.
     """
     key_map: dict[str, TicketInfo] = {t.key: t for t in tickets}
     local_keys = set(key_map.keys())
 
-    # Build adjacency: ticket → set of tickets it depends on (that are in this list)
+    # Build directed deps from prerequisites (hard order)
     deps: dict[str, set[str]] = {}
     for t in tickets:
         local_deps: set[str] = set()
@@ -252,7 +264,6 @@ def _topo_sort(tickets: list[TicketInfo]) -> list[TicketInfo]:
             if d in in_degree:
                 in_degree[k] = in_degree.get(k, 0) + 1
 
-    # Seed queue sorted by date
     queue = sorted(
         [k for k, d in in_degree.items() if d == 0],
         key=lambda k: _sort_date(key_map[k]),
@@ -281,63 +292,73 @@ def build_dependency_groups(
     tickets: list[TicketInfo],
 ) -> list[tuple[Optional[TicketInfo], list[TicketInfo]]]:
     """
-    Group tickets that have prerequisite relationships with each other.
-    Returns (root_or_None, [tickets_in_group]) tuples.
-    Root is the prerequisite ticket; dependents follow.
-    Tickets with no local deps get root=None.
+    Group tickets that are connected by prerequisites OR related-ticket
+    references (when both tickets are in this list). Uses union-find to
+    cluster connected tickets, then picks the oldest ticket as the group root.
     """
     key_set = {t.key for t in tickets}
     key_map = {t.key: t for t in tickets}
 
-    # Find clusters of connected tickets via prerequisites
-    parent_of: dict[str, str] = {}  # child → root
+    # Union-Find to cluster connected tickets
+    parent: dict[str, str] = {t.key: t.key for t in tickets}
+
+    def find(x: str) -> str:
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(a: str, b: str) -> None:
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[ra] = rb
+
+    # Connect tickets that share prerequisite or related-ticket links
     for t in tickets:
         for p in t.prerequisites:
             if p in key_set and p != t.key:
-                parent_of[t.key] = p
+                union(t.key, p)
+        for r in t.related_tickets:
+            if r in key_set and r != t.key:
+                union(t.key, r)
 
-    # Build groups
-    root_groups: dict[str, list[TicketInfo]] = {}
-    standalone: list[TicketInfo] = []
-    assigned: set[str] = set()
-
+    # Collect clusters
+    clusters: dict[str, list[TicketInfo]] = {}
     for t in tickets:
-        if t.key in assigned:
-            continue
-        # Walk up to find root
-        root_key = t.key
-        visited: set[str] = {root_key}
-        while root_key in parent_of and parent_of[root_key] not in visited:
-            root_key = parent_of[root_key]
-            visited.add(root_key)
+        root = find(t.key)
+        clusters.setdefault(root, []).append(t)
 
-        # Collect all tickets that trace back to this root
-        if root_key != t.key or any(
-            parent_of.get(other.key) == t.key for other in tickets
-        ):
-            if root_key not in root_groups:
-                root_groups[root_key] = []
-            if t.key not in assigned:
-                root_groups[root_key].append(t)
-                assigned.add(t.key)
-            # Also ensure root itself is in the group
-            if root_key in key_map and root_key not in assigned:
-                root_groups[root_key].insert(0, key_map[root_key])
-                assigned.add(root_key)
-        else:
-            standalone.append(t)
-            assigned.add(t.key)
-
-    # Ensure root is first in each group
+    # Build result: multi-ticket clusters get a root (oldest by date),
+    # single-ticket entries are standalone
     result: list[tuple[Optional[TicketInfo], list[TicketInfo]]] = []
-    for root_key, members in root_groups.items():
-        members.sort(key=lambda x: (0 if x.key == root_key else 1, _sort_date(x)))
-        result.append((key_map.get(root_key), members))
+    for _root_key, members in clusters.items():
+        if len(members) == 1:
+            result.append((None, members))
+        else:
+            # Pick the oldest ticket (or the one others depend on) as root
+            prereq_targets: set[str] = set()
+            for m in members:
+                for p in m.prerequisites:
+                    if p in key_set:
+                        prereq_targets.add(p)
 
-    for t in standalone:
-        result.append((None, [t]))
+            # Root = ticket that is a prereq of others but not itself dependent,
+            # falling back to oldest by date
+            candidate_roots = [
+                m for m in members
+                if m.key in prereq_targets
+                and not any(p in key_set and p != m.key for p in m.prerequisites)
+            ]
+            if candidate_roots:
+                root_ticket = min(candidate_roots, key=_sort_date)
+            else:
+                root_ticket = min(members, key=_sort_date)
 
-    # Sort groups by the first ticket's date
+            members.sort(
+                key=lambda x: (0 if x.key == root_ticket.key else 1, _sort_date(x))
+            )
+            result.append((root_ticket, members))
+
     result.sort(key=lambda g: _sort_date(g[1][0]) if g[1] else "9999")
     return result
 
@@ -371,13 +392,13 @@ def _emit_ticket_table(
 
     # Emit dependency clusters first
     for root, members in clusters:
-        dep_children = [m for m in members if m.key != root.key]
-        child_keys = ", ".join(m.key for m in dep_children)
-        lines.append(f"#### Dependency Group: {root.key}\n")
+        other_keys = [m.key for m in members if m.key != root.key]
+        lines.append(f"#### Related Group: {root.key}\n")
         lines.append(
-            f"> **{root.key}** must be completed before {child_keys}. "
-            f"These tickets share prerequisite relationships — "
-            f"complete them in the listed order.\n"
+            f"> {root.key} and {', '.join(other_keys)} are related and should "
+            f"be worked together. They reference each other in their "
+            f"prerequisites or related-tickets sections — complete them in "
+            f"the listed order.\n"
         )
         lines.append("| Key | Title | Status | Date | Links |")
         lines.append("|-----|-------|--------|------|-------|")

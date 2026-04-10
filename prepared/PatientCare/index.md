@@ -24,11 +24,20 @@ This index lists all **46** prepared tickets for the **Patient Care** work group
 
 *14 ticket(s) targeting the **FHIR Core (FHIR)** specification.*
 
+#### Related Group: FHIR-10635
+
+> FHIR-10635 and FHIR-12676 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-10635 | QA 5a: Resource references exist in both directions for Condition and ClinicalImpression | Triaged | 2016-09-09 | [FHIR-10635](./FHIR-10635.md) · [Jira](https://jira.hl7.org/browse/FHIR-10635) |
-| FHIR-11173 | CarePlan needs support for reviews | Triaged | 2016-09-17 | [FHIR-11173](./FHIR-11173.md) · [Jira](https://jira.hl7.org/browse/FHIR-11173) |
 | FHIR-12676 | Guidance request for GP SOAP in FHIR | Triaged | 2017-01-23 | [FHIR-12676](./FHIR-12676.md) · [Jira](https://jira.hl7.org/browse/FHIR-12676) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-11173 | CarePlan needs support for reviews | Triaged | 2016-09-17 | [FHIR-11173](./FHIR-11173.md) · [Jira](https://jira.hl7.org/browse/FHIR-11173) |
 | FHIR-13047 | Add DosageInstructions to Procedure | Triaged | 2017-03-14 | [FHIR-13047](./FHIR-13047.md) · [Jira](https://jira.hl7.org/browse/FHIR-13047) |
 | FHIR-22648 | Is CommunicationRequest.payload intended for the sender or the recipient? | Triaged | 2019-05-31 | [FHIR-22648](./FHIR-22648.md) · [Jira](https://jira.hl7.org/browse/FHIR-22648) |
 | FHIR-23061 | Communication needs to explain the boundary between it and messaging | Triaged | 2019-08-05 | [FHIR-23061](./FHIR-23061.md) · [Jira](https://jira.hl7.org/browse/FHIR-23061) |
@@ -58,17 +67,33 @@ This index lists all **46** prepared tickets for the **Patient Care** work group
 
 *9 ticket(s) targeting the **International Patient Summary (FHIR)** specification.*
 
+#### Related Group: FHIR-24999
+
+> FHIR-24999 and FHIR-25021, FHIR-25022 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-24999 | Add Nutrition as an optional section - IPS #4 | Triaged | 2019-10-16 | [FHIR-24999](./FHIR-24999.md) · [Jira](https://jira.hl7.org/browse/FHIR-24999) |
+| FHIR-25021 | Add nutrition as an optional IPS section | Triaged | 2019-10-16 | [FHIR-25021](./FHIR-25021.md) · [Jira](https://jira.hl7.org/browse/FHIR-25021) |
+| FHIR-25022 | Comment on patient safety related to dysphagia/enteral feeding and add nutrition as an optional section - IPS #54 | Triaged | 2019-10-16 | [FHIR-25022](./FHIR-25022.md) · [Jira](https://jira.hl7.org/browse/FHIR-25022) |
+
+#### Related Group: FHIR-53171
+
+> FHIR-53171 and FHIR-53260 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-53171 | Clarify medication[x] element definition wording in MedicationRequest(IPS) and MedicationStatement(IPS) | Triaged | 2025-10-17 | [FHIR-53171](./FHIR-53171.md) · [Jira](https://jira.hl7.org/browse/FHIR-53171) |
+| FHIR-53260 | Clarify prohibition of entered-in-error on status elements | Triaged | 2025-10-28 | [FHIR-53260](./FHIR-53260.md) · [Jira](https://jira.hl7.org/browse/FHIR-53260) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-23931 | IPS document vs IPS profiles | Triaged | 2019-09-06 | [FHIR-23931](./FHIR-23931.md) · [Jira](https://jira.hl7.org/browse/FHIR-23931) |
-| FHIR-24999 | Add Nutrition as an optional section - IPS #4 | Triaged | 2019-10-16 | [FHIR-24999](./FHIR-24999.md) · [Jira](https://jira.hl7.org/browse/FHIR-24999) |
 | FHIR-25013 | Provide link to the C-CDA participant extension page | Triaged | 2019-10-16 | [FHIR-25013](./FHIR-25013.md) · [Jira](https://jira.hl7.org/browse/FHIR-25013) |
-| FHIR-25021 | Add nutrition as an optional IPS section | Triaged | 2019-10-16 | [FHIR-25021](./FHIR-25021.md) · [Jira](https://jira.hl7.org/browse/FHIR-25021) |
-| FHIR-25022 | Comment on patient safety related to dysphagia/enteral feeding and add nutrition as an optional section - IPS #54 | Triaged | 2019-10-16 | [FHIR-25022](./FHIR-25022.md) · [Jira](https://jira.hl7.org/browse/FHIR-25022) |
 | FHIR-32073 | Inconsistent use of IPS profiles in references | Triaged | 2021-05-04 | [FHIR-32073](./FHIR-32073.md) · [Jira](https://jira.hl7.org/browse/FHIR-32073) |
 | FHIR-51969 | Community Review: Add MS and obligations for value in ObservationAlcoholUseUvIps and ObservationTobaccoUseUvIps | Triaged | 2025-08-26 | [FHIR-51969](./FHIR-51969.md) · [Jira](https://jira.hl7.org/browse/FHIR-51969) |
-| FHIR-53171 | Clarify medication[x] element definition wording in MedicationRequest(IPS) and MedicationStatement(IPS) | Triaged | 2025-10-17 | [FHIR-53171](./FHIR-53171.md) · [Jira](https://jira.hl7.org/browse/FHIR-53171) |
-| FHIR-53260 | Clarify prohibition of entered-in-error on status elements | Triaged | 2025-10-28 | [FHIR-53260](./FHIR-53260.md) · [Jira](https://jira.hl7.org/browse/FHIR-53260) |
 
 ---
 
@@ -76,10 +101,19 @@ This index lists all **46** prepared tickets for the **Patient Care** work group
 
 *4 ticket(s) targeting the **Ophthalmology Retinal (FHIR)** specification.*
 
+#### Related Group: FHIR-33825
+
+> FHIR-33825 and FHIR-33830 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-33825 | Defining URL (Canonical URL) should be in THO not hl7.org/fhir.7 | Triaged | 2021-09-15 | [FHIR-33825](./FHIR-33825.md) · [Jira](https://jira.hl7.org/browse/FHIR-33825) |
 | FHIR-33830 | Defining URL (Canonical URL) should be in THO not hl7.org/fhir.13 | Triaged | 2021-09-15 | [FHIR-33830](./FHIR-33830.md) · [Jira](https://jira.hl7.org/browse/FHIR-33830) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
 | FHIR-33929 | Choice element for subject and focus | Triaged | 2021-09-16 | [FHIR-33929](./FHIR-33929.md) · [Jira](https://jira.hl7.org/browse/FHIR-33929) |
 | FHIR-37633 | Observation.method is bound to a value set of devices not methods | Triaged | 2022-06-21 | [FHIR-37633](./FHIR-37633.md) · [Jira](https://jira.hl7.org/browse/FHIR-37633) |
 
@@ -88,6 +122,10 @@ This index lists all **46** prepared tickets for the **Patient Care** work group
 ## US PACIO Cognitive Status (FHIR)
 
 *4 ticket(s) targeting the **US PACIO Cognitive Status (FHIR)** specification.*
+
+#### Related Group: FHIR-29977
+
+> FHIR-29977 and FHIR-29978, FHIR-29979, FHIR-31509 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
 
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
@@ -102,14 +140,23 @@ This index lists all **46** prepared tickets for the **Patient Care** work group
 
 *6 ticket(s) targeting the **US PACIO Functional Status (FHIR)** specification.*
 
+#### Related Group: FHIR-29591
+
+> FHIR-29591 and FHIR-30014, FHIR-30015, FHIR-30016, FHIR-30039 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
-| FHIR-29581 | Constraint place on Observation.value | Triaged | 2020-10-29 | [FHIR-29581](./FHIR-29581.md) · [Jira](https://jira.hl7.org/browse/FHIR-29581) |
 | FHIR-29591 | Reuse of profiles and extensions | Triaged | 2020-10-29 | [FHIR-29591](./FHIR-29591.md) · [Jira](https://jira.hl7.org/browse/FHIR-29591) |
 | FHIR-30014 | Merge the Functional Status IG and Cognitive Status IG | Triaged | 2020-12-16 | [FHIR-30014](./FHIR-30014.md) · [Jira](https://jira.hl7.org/browse/FHIR-30014) |
 | FHIR-30015 | Clarify IG's scope by expanding the narrative | Triaged | 2020-12-16 | [FHIR-30015](./FHIR-30015.md) · [Jira](https://jira.hl7.org/browse/FHIR-30015) |
 | FHIR-30016 | Create a future roadmap | Triaged | 2020-12-16 | [FHIR-30016](./FHIR-30016.md) · [Jira](https://jira.hl7.org/browse/FHIR-30016) |
 | FHIR-30039 | Binding to all of LOINC is too broad | Triaged | 2020-12-16 | [FHIR-30039](./FHIR-30039.md) · [Jira](https://jira.hl7.org/browse/FHIR-30039) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-29581 | Constraint place on Observation.value | Triaged | 2020-10-29 | [FHIR-29581](./FHIR-29581.md) · [Jira](https://jira.hl7.org/browse/FHIR-29581) |
 
 ---
 

@@ -63,18 +63,34 @@ This index lists all **20** prepared tickets for the **Clinical Quality Informat
 
 *10 ticket(s) targeting the **US FHIR Guidance - Quality Reporting (FHIR)** specification.*
 
+#### Related Group: FHIR-45674
+
+> FHIR-45674 and FHIR-45676, FHIR-45677 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-45674 | Misspellings | Triaged | 2024-05-09 | [FHIR-45674](./FHIR-45674.md) · [Jira](https://jira.hl7.org/browse/FHIR-45674) |
-| FHIR-45675 | Payer vs Payor | Triaged | 2024-05-09 | [FHIR-45675](./FHIR-45675.md) · [Jira](https://jira.hl7.org/browse/FHIR-45675) |
 | FHIR-45676 | Confluence access link | Triaged | 2024-05-09 | [FHIR-45676](./FHIR-45676.md) · [Jira](https://jira.hl7.org/browse/FHIR-45676) |
 | FHIR-45677 | Grammer corrections | Triaged | 2024-05-09 | [FHIR-45677](./FHIR-45677.md) · [Jira](https://jira.hl7.org/browse/FHIR-45677) |
+
+#### Related Group: FHIR-45682
+
+> FHIR-45682 and FHIR-45683, FHIR-45685, FHIR-45684 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
 | FHIR-45682 | CLONE - CQFM Publishable Measure Short Description revision | Triaged | 2024-05-09 | [FHIR-45682](./FHIR-45682.md) · [Jira](https://jira.hl7.org/browse/FHIR-45682) |
 | FHIR-45683 | CQFM Proportion Measure Short Description revision | Triaged | 2024-05-09 | [FHIR-45683](./FHIR-45683.md) · [Jira](https://jira.hl7.org/browse/FHIR-45683) |
 | FHIR-45685 | CQFM Continuous Variable Measure Short Description revision | Triaged | 2024-05-09 | [FHIR-45685](./FHIR-45685.md) · [Jira](https://jira.hl7.org/browse/FHIR-45685) |
+| FHIR-45684 | CQFM Ratio Measure Short Description Revision | Triaged | **Type:** Change Request | **Priority:** Medium | 2024-05-09 | **Updated:** 2024-06-30 | [FHIR-45684](./FHIR-45684.md) · [Jira](https://jira.hl7.org/browse/FHIR-45684) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-45675 | Payer vs Payor | Triaged | 2024-05-09 | [FHIR-45675](./FHIR-45675.md) · [Jira](https://jira.hl7.org/browse/FHIR-45675) |
 | FHIR-45687 | CQLLibrary Link in 7.2 Broken | Triaged | 2024-05-09 | [FHIR-45687](./FHIR-45687.md) · [Jira](https://jira.hl7.org/browse/FHIR-45687) |
 | FHIR-45688 | Examples with Placeholder Descriptions | Triaged | 2024-05-09 | [FHIR-45688](./FHIR-45688.md) · [Jira](https://jira.hl7.org/browse/FHIR-45688) |
-| FHIR-45684 | CQFM Ratio Measure Short Description Revision | Triaged | **Type:** Change Request | **Priority:** Medium | 2024-05-09 | **Updated:** 2024-06-30 | [FHIR-45684](./FHIR-45684.md) · [Jira](https://jira.hl7.org/browse/FHIR-45684) |
 
 ---
 
@@ -82,11 +98,20 @@ This index lists all **20** prepared tickets for the **Clinical Quality Informat
 
 *3 ticket(s) targeting the **US QI Core (FHIR)** specification.*
 
+#### Related Group: FHIR-56026
+
+> FHIR-56026 and FHIR-56027 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-56026 | remove "adjudicated" and typo correction | Triaged | 2026-03-06 | [FHIR-56026](./FHIR-56026.md) · [Jira](https://jira.hl7.org/browse/FHIR-56026) |
+| FHIR-56027 | Discrepancies in Encounter Dx Lists: between EHR vs. Claims data | Triaged | 2026-03-06 | [FHIR-56027](./FHIR-56027.md) · [Jira](https://jira.hl7.org/browse/FHIR-56027) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-51998 | Incorrect SOP Code System Steward Information | Triaged | 2025-10-01 | [FHIR-51998](./FHIR-51998.md) · [Jira](https://jira.hl7.org/browse/FHIR-51998) |
-| FHIR-56026 | remove "adjudicated" and typo correction | Triaged | 2026-03-06 | [FHIR-56026](./FHIR-56026.md) · [Jira](https://jira.hl7.org/browse/FHIR-56026) |
-| FHIR-56027 | Discrepancies in Encounter Dx Lists: between EHR vs. Claims data | Triaged | 2026-03-06 | [FHIR-56027](./FHIR-56027.md) · [Jira](https://jira.hl7.org/browse/FHIR-56027) |
 
 ---
 
@@ -103,6 +128,10 @@ This index lists all **20** prepared tickets for the **Clinical Quality Informat
 ## Unspecified
 
 *2 ticket(s) targeting the **Unspecified** specification.*
+
+#### Related Group: FHIR-45681
+
+> FHIR-45681 and FHIR-45686 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
 
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|

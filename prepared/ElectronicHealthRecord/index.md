@@ -18,12 +18,13 @@ This index lists all **36** prepared tickets for the **Electronic Health Record*
 
 *33 ticket(s) targeting the **AI Transparency (FHIR)** specification.*
 
+#### Related Group: FHIR-53622
+
+> FHIR-53622 and FHIR-53969, FHIR-53970, FHIR-53973, FHIR-53974, FHIR-53975, FHIR-53976, FHIR-53967, FHIR-54112, FHIR-54114, FHIR-54116, FHIR-54118, FHIR-54137, FHIR-54150, FHIR-54158, FHIR-54179, FHIR-54180, FHIR-54210, FHIR-54211, FHIR-54215, FHIR-54233, FHIR-54235, FHIR-54236, FHIR-54260, FHIR-54391 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-53622 | RedHat AI System Card | Triaged | 2025-12-12 | [FHIR-53622](./FHIR-53622.md) · [Jira](https://jira.hl7.org/browse/FHIR-53622) |
-| FHIR-53770 | Does the row represent 4 levels? | Triaged | 2026-01-04 | [FHIR-53770](./FHIR-53770.md) · [Jira](https://jira.hl7.org/browse/FHIR-53770) |
-| FHIR-53814 | Improved use-case | Triaged | 2026-01-05 | [FHIR-53814](./FHIR-53814.md) · [Jira](https://jira.hl7.org/browse/FHIR-53814) |
-| FHIR-53937 | All Use Cases should have diagrams | Triaged | 2026-01-10 | [FHIR-53937](./FHIR-53937.md) · [Jira](https://jira.hl7.org/browse/FHIR-53937) |
 | FHIR-53969 | AI Data parent | Triaged | 2026-01-12 | [FHIR-53969](./FHIR-53969.md) · [Jira](https://jira.hl7.org/browse/FHIR-53969) |
 | FHIR-53970 | usages in the FHIR IG Statistics link not working | Triaged | 2026-01-12 | [FHIR-53970](./FHIR-53970.md) · [Jira](https://jira.hl7.org/browse/FHIR-53970) |
 | FHIR-53973 | Clarification on input data | Triaged | 2026-01-12 | [FHIR-53973](./FHIR-53973.md) · [Jira](https://jira.hl7.org/browse/FHIR-53973) |
@@ -36,7 +37,6 @@ This index lists all **36** prepared tickets for the **Electronic Health Record*
 | FHIR-54116 | Clarify sentence about the aim of the IG | Triaged | 2026-01-13 | [FHIR-54116](./FHIR-54116.md) · [Jira](https://jira.hl7.org/browse/FHIR-54116) |
 | FHIR-54118 | Describe the real world elements that are being encoded in the model | Triaged | 2026-01-13 | [FHIR-54118](./FHIR-54118.md) · [Jira](https://jira.hl7.org/browse/FHIR-54118) |
 | FHIR-54137 | Placeholder instruction text not replaced with content | Triaged | 2026-01-13 | [FHIR-54137](./FHIR-54137.md) · [Jira](https://jira.hl7.org/browse/FHIR-54137) |
-| FHIR-54141 | Binding strength conflicts with ValueSet name "Recommended" | Triaged | 2026-01-13 | [FHIR-54141](./FHIR-54141.md) · [Jira](https://jira.hl7.org/browse/FHIR-54141) |
 | FHIR-54150 | CodeSystem title inconsistent with computable name | Triaged | 2026-01-13 | [FHIR-54150](./FHIR-54150.md) · [Jira](https://jira.hl7.org/browse/FHIR-54150) |
 | FHIR-54158 | Replace users by consumers | Triaged | 2026-01-13 | [FHIR-54158](./FHIR-54158.md) · [Jira](https://jira.hl7.org/browse/FHIR-54158) |
 | FHIR-54179 | Rule-based systems inclusion in scope | Triaged | 2026-01-14 | [FHIR-54179](./FHIR-54179.md) · [Jira](https://jira.hl7.org/browse/FHIR-54179) |
@@ -48,9 +48,25 @@ This index lists all **36** prepared tickets for the **Electronic Health Record*
 | FHIR-54235 | Data quality / data qualification | Triaged | 2026-01-14 | [FHIR-54235](./FHIR-54235.md) · [Jira](https://jira.hl7.org/browse/FHIR-54235) |
 | FHIR-54236 | Unclear sentence | Triaged | 2026-01-14 | [FHIR-54236](./FHIR-54236.md) · [Jira](https://jira.hl7.org/browse/FHIR-54236) |
 | FHIR-54260 | Clarify AI Data profile | Triaged | 2026-01-14 | [FHIR-54260](./FHIR-54260.md) · [Jira](https://jira.hl7.org/browse/FHIR-54260) |
+| FHIR-54391 | Provide a position on the preferred model card, if any | Triaged | 2026-01-15 | [FHIR-54391](./FHIR-54391.md) · [Jira](https://jira.hl7.org/browse/FHIR-54391) |
+
+#### Related Group: FHIR-53770
+
+> FHIR-53770 and FHIR-53814, FHIR-53937 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-53770 | Does the row represent 4 levels? | Triaged | 2026-01-04 | [FHIR-53770](./FHIR-53770.md) · [Jira](https://jira.hl7.org/browse/FHIR-53770) |
+| FHIR-53814 | Improved use-case | Triaged | 2026-01-05 | [FHIR-53814](./FHIR-53814.md) · [Jira](https://jira.hl7.org/browse/FHIR-53814) |
+| FHIR-53937 | All Use Cases should have diagrams | Triaged | 2026-01-10 | [FHIR-53937](./FHIR-53937.md) · [Jira](https://jira.hl7.org/browse/FHIR-53937) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-54141 | Binding strength conflicts with ValueSet name "Recommended" | Triaged | 2026-01-13 | [FHIR-54141](./FHIR-54141.md) · [Jira](https://jira.hl7.org/browse/FHIR-54141) |
 | FHIR-54281 | Provide complete examples | Triaged | 2026-01-14 | [FHIR-54281](./FHIR-54281.md) · [Jira](https://jira.hl7.org/browse/FHIR-54281) |
 | FHIR-54371 | AI Device representation and it's elements | Triaged | 2026-01-15 | [FHIR-54371](./FHIR-54371.md) · [Jira](https://jira.hl7.org/browse/FHIR-54371) |
-| FHIR-54391 | Provide a position on the preferred model card, if any | Triaged | 2026-01-15 | [FHIR-54391](./FHIR-54391.md) · [Jira](https://jira.hl7.org/browse/FHIR-54391) |
 | FHIR-54706 | Expand and elaborate further on use cases | Triaged | 2026-01-18 | [FHIR-54706](./FHIR-54706.md) · [Jira](https://jira.hl7.org/browse/FHIR-54706) |
 | FHIR-54899 | Improve clarity and readability of dependency rationale | Triaged | 2026-01-19 | [FHIR-54899](./FHIR-54899.md) · [Jira](https://jira.hl7.org/browse/FHIR-54899) |
 

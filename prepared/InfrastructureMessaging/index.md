@@ -40,6 +40,17 @@ This index lists all **18** prepared tickets for the **Infrastructure Messaging*
 
 *11 ticket(s) targeting the **FHIRCast (FHIR)** specification.*
 
+#### Related Group: FHIR-46927
+
+> FHIR-46927 and FHIR-48684 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-46927 | DiagnosticReport-select event should be marked as Experimental | Triaged | 2024-09-03 | [FHIR-46927](./FHIR-46927.md) · [Jira](https://jira.hl7.org/browse/FHIR-46927) |
+| FHIR-48684 | select event uses/used resources as type | Triaged | 2024-10-22 | [FHIR-48684](./FHIR-48684.md) · [Jira](https://jira.hl7.org/browse/FHIR-48684) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-36841 | Clarify Context to be Returned in the Get Current Context Operation | Triaged | 2022-04-20 | [FHIR-36841](./FHIR-36841.md) · [Jira](https://jira.hl7.org/browse/FHIR-36841) |
@@ -49,9 +60,7 @@ This index lists all **18** prepared tickets for the **Infrastructure Messaging*
 | FHIR-45775 | Replace context specific extension approach with a generic | Triaged | 2024-05-13 | [FHIR-45775](./FHIR-45775.md) · [Jira](https://jira.hl7.org/browse/FHIR-45775) |
 | FHIR-45778 | Add deprecated as a maturity title | Triaged | 2024-05-13 | [FHIR-45778](./FHIR-45778.md) · [Jira](https://jira.hl7.org/browse/FHIR-45778) |
 | FHIR-45780 | Patient should not be required for generic FHIRcast deployments | Triaged | 2024-05-13 | [FHIR-45780](./FHIR-45780.md) · [Jira](https://jira.hl7.org/browse/FHIR-45780) |
-| FHIR-46927 | DiagnosticReport-select event should be marked as Experimental | Triaged | 2024-09-03 | [FHIR-46927](./FHIR-46927.md) · [Jira](https://jira.hl7.org/browse/FHIR-46927) |
 | FHIR-48354 | Content sharing bootstrap - can I create a content sharing session with no DR | Triaged | 2024-09-22 | [FHIR-48354](./FHIR-48354.md) · [Jira](https://jira.hl7.org/browse/FHIR-48354) |
-| FHIR-48684 | select event uses/used resources as type | Triaged | 2024-10-22 | [FHIR-48684](./FHIR-48684.md) · [Jira](https://jira.hl7.org/browse/FHIR-48684) |
 | FHIR-49078 | why is this new SHALL needed? | Triaged | 2024-12-30 | [FHIR-49078](./FHIR-49078.md) · [Jira](https://jira.hl7.org/browse/FHIR-49078) |
 
 ---

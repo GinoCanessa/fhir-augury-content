@@ -18,17 +18,26 @@ This index lists all **18** prepared tickets for the **Implementable Technology 
 
 *11 ticket(s) targeting the **FHIR Core (FHIR)** specification.*
 
+#### Related Group: FHIR-45023
+
+> FHIR-45023 and FHIR-46788, FHIR-48937, FHIR-51115 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-45023 | Need a canonicalization for Bundle that excludes .signature | Triaged | 2024-03-21 | [FHIR-45023](./FHIR-45023.md) · [Jira](https://jira.hl7.org/browse/FHIR-45023) |
+| FHIR-46788 | canonical XML for narrative explanation truncated | Triaged | 2024-08-28 | [FHIR-46788](./FHIR-46788.md) · [Jira](https://jira.hl7.org/browse/FHIR-46788) |
+| FHIR-48937 | Typo on XML Page | Triaged | 2024-12-03 | [FHIR-48937](./FHIR-48937.md) · [Jira](https://jira.hl7.org/browse/FHIR-48937) |
+| FHIR-51115 | Update JSON Canonicalization section to reference RFC 8785 | Triaged | 2025-06-17 | [FHIR-51115](./FHIR-51115.md) · [Jira](https://jira.hl7.org/browse/FHIR-51115) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-36883 | The JSON legend is missing the C? | Triaged | 2022-04-27 | [FHIR-36883](./FHIR-36883.md) · [Jira](https://jira.hl7.org/browse/FHIR-36883) |
 | FHIR-39280 | OIDs page should be owned by FMG, not ITS | Triaged | 2022-10-16 | [FHIR-39280](./FHIR-39280.md) · [Jira](https://jira.hl7.org/browse/FHIR-39280) |
 | FHIR-41345 | Wrong name for OID 2.16.840.1.113883.4.642.4.1930 | Triaged | 2023-05-26 | [FHIR-41345](./FHIR-41345.md) · [Jira](https://jira.hl7.org/browse/FHIR-41345) |
-| FHIR-45023 | Need a canonicalization for Bundle that excludes .signature | Triaged | 2024-03-21 | [FHIR-45023](./FHIR-45023.md) · [Jira](https://jira.hl7.org/browse/FHIR-45023) |
-| FHIR-46788 | canonical XML for narrative explanation truncated | Triaged | 2024-08-28 | [FHIR-46788](./FHIR-46788.md) · [Jira](https://jira.hl7.org/browse/FHIR-46788) |
-| FHIR-48937 | Typo on XML Page | Triaged | 2024-12-03 | [FHIR-48937](./FHIR-48937.md) · [Jira](https://jira.hl7.org/browse/FHIR-48937) |
 | FHIR-49713 | FHIR RDF: Add type arc to yellow Turtle template/schema | Triaged | 2025-02-02 | [FHIR-49713](./FHIR-49713.md) · [Jira](https://jira.hl7.org/browse/FHIR-49713) |
 | FHIR-50935 | Cannonicals presented as a list and not a ValueSet | Triaged | 2025-05-20 | [FHIR-50935](./FHIR-50935.md) · [Jira](https://jira.hl7.org/browse/FHIR-50935) |
-| FHIR-51115 | Update JSON Canonicalization section to reference RFC 8785 | Triaged | 2025-06-17 | [FHIR-51115](./FHIR-51115.md) · [Jira](https://jira.hl7.org/browse/FHIR-51115) |
 | FHIR-51194 | Strongly recommend that XADES signatures should not contain whitespace in the signedProperties block | Triaged | 2025-06-22 | [FHIR-51194](./FHIR-51194.md) · [Jira](https://jira.hl7.org/browse/FHIR-51194) |
 | FHIR-53317 | Fix definition of MessageDefinition.event[x] | Triaged | 2025-11-03 | [FHIR-53317](./FHIR-53317.md) · [Jira](https://jira.hl7.org/browse/FHIR-53317) |
 
@@ -38,13 +47,22 @@ This index lists all **18** prepared tickets for the **Implementable Technology 
 
 *5 ticket(s) targeting the **FHIRPath (FHIR)** specification.*
 
+#### Related Group: FHIR-49525
+
+> FHIR-49525 and FHIR-53249, FHIR-53250, FHIR-56190 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-49525 | Quantity math and unit conversion | Triaged | 2025-10-22 | [FHIR-49525](./FHIR-49525.md) · [Jira](https://jira.hl7.org/browse/FHIR-49525) |
 | FHIR-53249 | Quantity equivalence is ambiguous | Triaged | 2025-10-27 | [FHIR-53249](./FHIR-53249.md) · [Jira](https://jira.hl7.org/browse/FHIR-53249) |
 | FHIR-53250 | Calendar duration equivalence has conflicts | Triaged | 2025-10-27 | [FHIR-53250](./FHIR-53250.md) · [Jira](https://jira.hl7.org/browse/FHIR-53250) |
-| FHIR-53554 | Clarify Unicode support | Triaged | 2026-01-27 | [FHIR-53554](./FHIR-53554.md) · [Jira](https://jira.hl7.org/browse/FHIR-53554) |
 | FHIR-56190 | Extensive clarifications of handling quantities, and specifically unit conversions and calendar/time valued quantities | Triaged | 2026-03-30 | [FHIR-56190](./FHIR-56190.md) · [Jira](https://jira.hl7.org/browse/FHIR-56190) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-53554 | Clarify Unicode support | Triaged | 2026-01-27 | [FHIR-53554](./FHIR-53554.md) · [Jira](https://jira.hl7.org/browse/FHIR-53554) |
 
 ---
 

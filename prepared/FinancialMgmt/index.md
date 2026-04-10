@@ -24,26 +24,63 @@ This index lists all **43** prepared tickets for the **Financial Mgmt** work gro
 
 *26 ticket(s) targeting the **FHIR Core (FHIR)** specification.*
 
+#### Related Group: FHIR-20152
+
+> FHIR-20152 and FHIR-22704, FHIR-26966 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
-| FHIR-13054 | Clarification of ValueSet: Contract Term Subtype Codes | Triaged | 2017-03-15 | [FHIR-13054](./FHIR-13054.md) · [Jira](https://jira.hl7.org/browse/FHIR-13054) |
 | FHIR-20152 | Contract legal state machine doesn't match contract-legalstate value set | Triaged | 2019-01-16 | [FHIR-20152](./FHIR-20152.md) · [Jira](https://jira.hl7.org/browse/FHIR-20152) |
-| FHIR-20154 | Incomplete definition of Contract.contentDerivative as legally executed contract | Triaged | 2019-01-16 | [FHIR-20154](./FHIR-20154.md) · [Jira](https://jira.hl7.org/browse/FHIR-20154) |
-| FHIR-20160 | Contract.term.offer.topic requirements extra text in reference to valuedItem | Triaged | 2019-01-16 | [FHIR-20160](./FHIR-20160.md) · [Jira](https://jira.hl7.org/browse/FHIR-20160) |
-| FHIR-20344 | Contract.signer should just be the Signature datatype | Triaged | 2019-02-04 | [FHIR-20344](./FHIR-20344.md) · [Jira](https://jira.hl7.org/browse/FHIR-20344) |
-| FHIR-20792 | Contract has duplicated other resources codesystem and valueset | Triaged | **Priority:** Medium | **Type:** Change Request | 2019-04-10 | **Updated:** 2025-02-24 | [FHIR-20792](./FHIR-20792.md) · [Jira](https://jira.hl7.org/browse/FHIR-20792) |
-| FHIR-22142 | Contract.term.action.performer - target list needs fixing | Triaged | 2019-05-13 | [FHIR-22142](./FHIR-22142.md) · [Jira](https://jira.hl7.org/browse/FHIR-22142) |
 | FHIR-22704 | Why doesn't the Contract Resource state model map to the common state model for all FHIR resources | Triaged | 2019-06-15 | [FHIR-22704](./FHIR-22704.md) · [Jira](https://jira.hl7.org/browse/FHIR-22704) |
+| FHIR-26966 | Contract state machine shows complex workflow that seem to conflate different patterns | Triaged | 2020-04-27 | [FHIR-26966](./FHIR-26966.md) · [Jira](https://jira.hl7.org/browse/FHIR-26966) |
+
+#### Related Group: FHIR-20154
+
+> FHIR-20154 and FHIR-20344 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-20154 | Incomplete definition of Contract.contentDerivative as legally executed contract | Triaged | 2019-01-16 | [FHIR-20154](./FHIR-20154.md) · [Jira](https://jira.hl7.org/browse/FHIR-20154) |
+| FHIR-20344 | Contract.signer should just be the Signature datatype | Triaged | 2019-02-04 | [FHIR-20344](./FHIR-20344.md) · [Jira](https://jira.hl7.org/browse/FHIR-20344) |
+
+#### Related Group: FHIR-22142
+
+> FHIR-22142 and FHIR-25618 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-22142 | Contract.term.action.performer - target list needs fixing | Triaged | 2019-05-13 | [FHIR-22142](./FHIR-22142.md) · [Jira](https://jira.hl7.org/browse/FHIR-22142) |
+| FHIR-25618 | The subject of a contract could be a provider or a provider at a certain location | Triaged | 2020-01-24 | [FHIR-25618](./FHIR-25618.md) · [Jira](https://jira.hl7.org/browse/FHIR-25618) |
+
+#### Related Group: FHIR-24915
+
+> FHIR-24915 and FHIR-24916 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
 | FHIR-24915 | Harmonize Coverage and InsurancePlan type | Triaged | 2019-10-09 | [FHIR-24915](./FHIR-24915.md) · [Jira](https://jira.hl7.org/browse/FHIR-24915) |
 | FHIR-24916 | Harmonize Coverage and InsurancePlan type | Triaged | 2019-10-09 | [FHIR-24916](./FHIR-24916.md) · [Jira](https://jira.hl7.org/browse/FHIR-24916) |
-| FHIR-25618 | The subject of a contract could be a provider or a provider at a certain location | Triaged | 2020-01-24 | [FHIR-25618](./FHIR-25618.md) · [Jira](https://jira.hl7.org/browse/FHIR-25618) |
+
+#### Related Group: FHIR-26710
+
+> FHIR-26710 and FHIR-26712, FHIR-26717, FHIR-26720, FHIR-26721, FHIR-26722 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
 | FHIR-26710 | Define NUBC data elements as backbone data elements | Triaged | 2020-04-07 | [FHIR-26710](./FHIR-26710.md) · [Jira](https://jira.hl7.org/browse/FHIR-26710) |
 | FHIR-26712 | Define the Diagnosis Related Group (DRG) as a backbone element | Triaged | 2020-04-07 | [FHIR-26712](./FHIR-26712.md) · [Jira](https://jira.hl7.org/browse/FHIR-26712) |
 | FHIR-26717 | Define NCPDP data elements as EOB backbone data elements | Triaged | 2020-04-07 | [FHIR-26717](./FHIR-26717.md) · [Jira](https://jira.hl7.org/browse/FHIR-26717) |
 | FHIR-26720 | Define Claim Received Date as an EOB backbone element | Triaged | 2020-04-07 | [FHIR-26720](./FHIR-26720.md) · [Jira](https://jira.hl7.org/browse/FHIR-26720) |
 | FHIR-26721 | Define the various payer adjudication amount fields in the EOB adjudication section | Triaged | 2020-04-07 | [FHIR-26721](./FHIR-26721.md) · [Jira](https://jira.hl7.org/browse/FHIR-26721) |
 | FHIR-26722 | Define allowed units in the detail section of the EOB resource | Triaged | 2020-04-07 | [FHIR-26722](./FHIR-26722.md) · [Jira](https://jira.hl7.org/browse/FHIR-26722) |
-| FHIR-26966 | Contract state machine shows complex workflow that seem to conflate different patterns | Triaged | 2020-04-27 | [FHIR-26966](./FHIR-26966.md) · [Jira](https://jira.hl7.org/browse/FHIR-26966) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-13054 | Clarification of ValueSet: Contract Term Subtype Codes | Triaged | 2017-03-15 | [FHIR-13054](./FHIR-13054.md) · [Jira](https://jira.hl7.org/browse/FHIR-13054) |
+| FHIR-20160 | Contract.term.offer.topic requirements extra text in reference to valuedItem | Triaged | 2019-01-16 | [FHIR-20160](./FHIR-20160.md) · [Jira](https://jira.hl7.org/browse/FHIR-20160) |
+| FHIR-20792 | Contract has duplicated other resources codesystem and valueset | Triaged | **Priority:** Medium | **Type:** Change Request | 2019-04-10 | **Updated:** 2025-02-24 | [FHIR-20792](./FHIR-20792.md) · [Jira](https://jira.hl7.org/browse/FHIR-20792) |
 | FHIR-29766 | Changes to support regulated authorizations | Triaged | 2020-11-20 | [FHIR-29766](./FHIR-29766.md) · [Jira](https://jira.hl7.org/browse/FHIR-29766) |
 | FHIR-31035 | Add a value to related claim relationship code system | Triaged | 2021-02-09 | [FHIR-31035](./FHIR-31035.md) · [Jira](https://jira.hl7.org/browse/FHIR-31035) |
 | FHIR-31039 | Replace values in Procedure Type Code System | Triaged | 2021-02-10 | [FHIR-31039](./FHIR-31039.md) · [Jira](https://jira.hl7.org/browse/FHIR-31039) |
@@ -59,6 +96,10 @@ This index lists all **43** prepared tickets for the **Financial Mgmt** work gro
 
 *6 ticket(s) targeting the **US CARIN Blue Button (FHIR)** specification.*
 
+#### Related Group: FHIR-34260
+
+> FHIR-34260 and FHIR-35389, FHIR-35390, FHIR-35391, FHIR-35392 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-34260 | Care Team Role Code System | Triaged | 2021-11-05 | [FHIR-34260](./FHIR-34260.md) · [Jira](https://jira.hl7.org/browse/FHIR-34260) |
@@ -66,6 +107,11 @@ This index lists all **43** prepared tickets for the **Financial Mgmt** work gro
 | FHIR-35390 | Defining URL should be anchored in THO not hl7.org/fhir.2 - CodeSystem-C4BBAdjudicationDiscriminator | Triaged | 2022-01-10 | [FHIR-35390](./FHIR-35390.md) · [Jira](https://jira.hl7.org/browse/FHIR-35390) |
 | FHIR-35391 | Defining URL should be anchored in THO not hl7.org/fhir.3 - CodeSystem-C4BBClaimCareTeamRole | Triaged | 2022-01-10 | [FHIR-35391](./FHIR-35391.md) · [Jira](https://jira.hl7.org/browse/FHIR-35391) |
 | FHIR-35392 | Defining URL should be anchored in THO not hl7.org/fhir.4 - CodeSystem-C4BBClaimDiagnosisType | Triaged | 2022-01-10 | [FHIR-35392](./FHIR-35392.md) · [Jira](https://jira.hl7.org/browse/FHIR-35392) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
 | FHIR-48340 | Submit value sets to THO | Triaged | 2024-09-21 | [FHIR-48340](./FHIR-48340.md) · [Jira](https://jira.hl7.org/browse/FHIR-48340) |
 
 ---

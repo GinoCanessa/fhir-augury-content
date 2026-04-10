@@ -25,20 +25,15 @@ This index lists all **40** planned tickets for the **Biomedical Research And Re
 
 *These tickets do not reference a specific repository. Review each ticket to determine the target artifact.*
 
-#### Dependency Group: FHIR-24125
+#### Related Group: FHIR-24125
 
-> **FHIR-24125** must be completed before FHIR-24127. These tickets share prerequisite relationships — complete them in the listed order.
+> FHIR-24125 and FHIR-24123, FHIR-24127 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
 
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-24125 | Move content from uploads page to Overview page. - CDISC_LAB #3 | Resolved - change required | 2021-10-27 | [FHIR-24125](./FHIR-24125.md) · [Jira](https://jira.hl7.org/browse/FHIR-24125) |
-| FHIR-24127 | Recommend adding BRIDG to scope. - CDISC_LAB #4 | Resolved - change required | 2021-10-27 | [FHIR-24127](./FHIR-24127.md) · [Jira](https://jira.hl7.org/browse/FHIR-24127) |
-
-#### Other Tickets
-
-| Key | Title | Status | Date | Links |
-|-----|-------|--------|------|-------|
 | FHIR-24123 | Corect spelling of 'transforming' in paragraph: - CDISC_LAB #2 | Resolved - change required | 2021-10-27 | [FHIR-24123](./FHIR-24123.md) · [Jira](https://jira.hl7.org/browse/FHIR-24123) |
+| FHIR-24127 | Recommend adding BRIDG to scope. - CDISC_LAB #4 | Resolved - change required | 2021-10-27 | [FHIR-24127](./FHIR-24127.md) · [Jira](https://jira.hl7.org/browse/FHIR-24127) |
 
 ---
 
@@ -65,32 +60,32 @@ This index lists all **40** planned tickets for the **Biomedical Research And Re
 
 *These tickets do not reference a specific repository. Review each ticket to determine the target artifact.*
 
-#### Dependency Group: FHIR-43577
+#### Related Group: FHIR-43577
 
-> **FHIR-43577** must be completed before FHIR-43579, FHIR-46450. These tickets share prerequisite relationships — complete them in the listed order.
+> FHIR-43577 and FHIR-43579, FHIR-39003, FHIR-39004, FHIR-46450 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
 
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-43577 | Change research-subject-state value set in accordance with BRR consensus | Resolved - change required | 2024-01-29 | [FHIR-43577](./FHIR-43577.md) · [Jira](https://jira.hl7.org/browse/FHIR-43577) |
 | FHIR-43579 | Change CodeSystem: StateChangeReason in accordance with BRR consensus | Resolved - change required | 2024-01-29 | [FHIR-43579](./FHIR-43579.md) · [Jira](https://jira.hl7.org/browse/FHIR-43579) |
+| FHIR-39003 | Remove external SEVCO codes from research-study-classifiers CodeSystem and add an external code system. | Resolved - change required | 2025-03-13 | [FHIR-39003](./FHIR-39003.md) · [Jira](https://jira.hl7.org/browse/FHIR-39003) |
+| FHIR-39004 | Change Study Design Value Set content logical definition to use SEVCO once published in THO | Resolved - change required | 2025-03-13 | [FHIR-39004](./FHIR-39004.md) · [Jira](https://jira.hl7.org/browse/FHIR-39004) |
 | FHIR-46450 | Extend the subjectState.code definitions for on-study / off-study to cover their meaning in retrospective use | Resolved - change required | 2025-03-18 | [FHIR-46450](./FHIR-46450.md) · [Jira](https://jira.hl7.org/browse/FHIR-46450) |
 
-#### Dependency Group: FHIR-39004
+#### Related Group: FHIR-50461
 
-> **FHIR-39004** must be completed before FHIR-39003. These tickets share prerequisite relationships — complete them in the listed order.
-
-| Key | Title | Status | Date | Links |
-|-----|-------|--------|------|-------|
-| FHIR-39004 | Change Study Design Value Set content logical definition to use SEVCO once published in THO | Resolved - change required | 2025-03-13 | [FHIR-39004](./FHIR-39004.md) · [Jira](https://jira.hl7.org/browse/FHIR-39004) |
-| FHIR-39003 | Remove external SEVCO codes from research-study-classifiers CodeSystem and add an external code system. | Resolved - change required | 2025-03-13 | [FHIR-39003](./FHIR-39003.md) · [Jira](https://jira.hl7.org/browse/FHIR-39003) |
-
-#### Other Tickets
+> FHIR-50461 and FHIR-53697, FHIR-53696 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
 
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-50461 | Add data-monitoring to ResearchStudyPartyRole CodeSystem | Resolved - change required | 2025-05-20 | [FHIR-50461](./FHIR-50461.md) · [Jira](https://jira.hl7.org/browse/FHIR-50461) |
 | FHIR-53697 | Change binding for ResearchStudy.progressStatus.state | Resolved – change required | 2025-12-22 | [FHIR-53697](./FHIR-53697.md) · [Jira](https://jira.hl7.org/browse/FHIR-53697) |
 | FHIR-53696 | Change binding for ResearchStudy.associatedParty.role | Resolved — change required | 2026-01-26 | [FHIR-53696](./FHIR-53696.md) · [Jira](https://jira.hl7.org/browse/FHIR-53696) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
 | FHIR-53692 | Change ResearchStudy.primaryPurposeType 0..1 to ResearchStudy.purposeType 0..* | Resolved — change required | — | [FHIR-53692](./FHIR-53692.md) · [Jira](https://jira.hl7.org/browse/FHIR-53692) |
 
 ### HL7/UTG
@@ -182,45 +177,31 @@ This index lists all **40** planned tickets for the **Biomedical Research And Re
 
 *These tickets do not reference a specific repository. Review each ticket to determine the target artifact.*
 
-#### Dependency Group: FHIR-21210
+#### Related Group: FHIR-21210
 
-> **FHIR-21210** must be completed before FHIR-20966, FHIR-20967, FHIR-21014. These tickets share prerequisite relationships — complete them in the listed order.
+> FHIR-21210 and FHIR-20788, FHIR-21321, FHIR-21013, FHIR-21209, FHIR-21211, FHIR-21017, FHIR-20966, FHIR-20967, FHIR-21014, FHIR-21015, FHIR-20789, FHIR-21016 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
 
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-21210 | Mappings of CDEs to FHIR section could be more useful | Resolved - change required | 2019-08-28 | [FHIR-21210](./FHIR-21210.md) · [Jira](https://jira.hl7.org/browse/FHIR-21210) |
+| FHIR-20788 | Typos in WHT CRN IG | Resolved - change required | 2019-05-06 | [FHIR-20788](./FHIR-20788.md) · [Jira](https://jira.hl7.org/browse/FHIR-20788) |
+| FHIR-21321 | Add to parenthetical statement and correct element name for manufactureDate - CRN #22 | Resolved - change required | 2019-07-02 | [FHIR-21321](./FHIR-21321.md) · [Jira](https://jira.hl7.org/browse/FHIR-21321) |
+| FHIR-21013 | Patient.communication.language or Patient.communication.preferred? | Resolved - change required | 2019-08-28 | [FHIR-21013](./FHIR-21013.md) · [Jira](https://jira.hl7.org/browse/FHIR-21013) |
+| FHIR-21209 | WHT CRN Overview - Background - Typo | Resolved - change required | 2019-08-28 | [FHIR-21209](./FHIR-21209.md) · [Jira](https://jira.hl7.org/browse/FHIR-21209) |
+| FHIR-21211 | Change mapping of Hospital Discharge | Resolved - change required | 2019-08-28 | [FHIR-21211](./FHIR-21211.md) · [Jira](https://jira.hl7.org/browse/FHIR-21211) |
+| FHIR-21017 | use procedure.location instead of location.identifier? | Resolved - change required | 2019-08-28 | [FHIR-21017](./FHIR-21017.md) · [Jira](https://jira.hl7.org/browse/FHIR-21017) |
 | FHIR-20966 | Change "NLM's CDE Repository" to "NIH CDE Repository" | Resolved - change required | 2019-08-28 | [FHIR-20966](./FHIR-20966.md) · [Jira](https://jira.hl7.org/browse/FHIR-20966) |
 | FHIR-20967 | Remove sentence from section about NIH CDE Repository | Resolved - change required | 2019-08-28 | [FHIR-20967](./FHIR-20967.md) · [Jira](https://jira.hl7.org/browse/FHIR-20967) |
 | FHIR-21014 | Include Common Data Elements in the IG | Resolved - change required | 2019-08-28 | [FHIR-21014](./FHIR-21014.md) · [Jira](https://jira.hl7.org/browse/FHIR-21014) |
-
-#### Dependency Group: FHIR-21211
-
-> **FHIR-21211** must be completed before FHIR-21017. These tickets share prerequisite relationships — complete them in the listed order.
-
-| Key | Title | Status | Date | Links |
-|-----|-------|--------|------|-------|
-| FHIR-21211 | Change mapping of Hospital Discharge | Resolved - change required | 2019-08-28 | [FHIR-21211](./FHIR-21211.md) · [Jira](https://jira.hl7.org/browse/FHIR-21211) |
-| FHIR-21017 | use procedure.location instead of location.identifier? | Resolved - change required | 2019-08-28 | [FHIR-21017](./FHIR-21017.md) · [Jira](https://jira.hl7.org/browse/FHIR-21017) |
-
-#### Dependency Group: FHIR-21016
-
-> **FHIR-21016** must be completed before FHIR-20789. These tickets share prerequisite relationships — complete them in the listed order.
-
-| Key | Title | Status | Date | Links |
-|-----|-------|--------|------|-------|
-| FHIR-21016 | Remove AdverseEvent? | Resolved - change required | 2019-10-23 | [FHIR-21016](./FHIR-21016.md) · [Jira](https://jira.hl7.org/browse/FHIR-21016) |
+| FHIR-21015 | Include LOINC and other codes when specified | Resolved - change required | 2019-09-17 | [FHIR-21015](./FHIR-21015.md) · [Jira](https://jira.hl7.org/browse/FHIR-21015) |
 | FHIR-20789 | Use of AdverseEvent for tracking adverse events in WHT CRN | Resolved - change required | 2019-10-23 | [FHIR-20789](./FHIR-20789.md) · [Jira](https://jira.hl7.org/browse/FHIR-20789) |
+| FHIR-21016 | Remove AdverseEvent? | Resolved - change required | 2019-10-23 | [FHIR-21016](./FHIR-21016.md) · [Jira](https://jira.hl7.org/browse/FHIR-21016) |
 
 #### Other Tickets
 
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
-| FHIR-20788 | Typos in WHT CRN IG | Resolved - change required | 2019-05-06 | [FHIR-20788](./FHIR-20788.md) · [Jira](https://jira.hl7.org/browse/FHIR-20788) |
-| FHIR-21321 | Add to parenthetical statement and correct element name for manufactureDate - CRN #22 | Resolved - change required | 2019-07-02 | [FHIR-21321](./FHIR-21321.md) · [Jira](https://jira.hl7.org/browse/FHIR-21321) |
 | FHIR-20958 | Number sections for ease of reading/commenting | Resolved - change required | 2019-08-28 | [FHIR-20958](./FHIR-20958.md) · [Jira](https://jira.hl7.org/browse/FHIR-20958) |
-| FHIR-21013 | Patient.communication.language or Patient.communication.preferred? | Resolved - change required | 2019-08-28 | [FHIR-21013](./FHIR-21013.md) · [Jira](https://jira.hl7.org/browse/FHIR-21013) |
-| FHIR-21209 | WHT CRN Overview - Background - Typo | Resolved - change required | 2019-08-28 | [FHIR-21209](./FHIR-21209.md) · [Jira](https://jira.hl7.org/browse/FHIR-21209) |
-| FHIR-21015 | Include LOINC and other codes when specified | Resolved - change required | 2019-09-17 | [FHIR-21015](./FHIR-21015.md) · [Jira](https://jira.hl7.org/browse/FHIR-21015) |
 
 ---
 

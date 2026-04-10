@@ -30,6 +30,10 @@ This index lists all **35** prepared tickets for the **Clinical Interoperability
 
 *30 ticket(s) targeting the **US Breast Cancer Radiology Reporting (FHIR)** specification.*
 
+#### Related Group: FHIR-23890
+
+> FHIR-23890 and FHIR-23893, FHIR-24046, FHIR-25076, FHIR-25080, FHIR-25131, FHIR-25132, FHIR-25135, FHIR-25136, FHIR-25139, FHIR-25140, FHIR-25144, FHIR-25145, FHIR-25149, FHIR-23891, FHIR-24052, FHIR-25069, FHIR-25074, FHIR-25075, FHIR-25077, FHIR-25078, FHIR-25079, FHIR-25081, FHIR-25115, FHIR-25133, FHIR-25082, FHIR-38776 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-23890 | Patient or RelatedPerson reported content | Triaged | 2019-09-06 | [FHIR-23890](./FHIR-23890.md) · [Jira](https://jira.hl7.org/browse/FHIR-23890) |
@@ -37,7 +41,6 @@ This index lists all **35** prepared tickets for the **Clinical Interoperability
 | FHIR-24046 | Breast Radiology: Refine references | Triaged | 2019-09-09 | [FHIR-24046](./FHIR-24046.md) · [Jira](https://jira.hl7.org/browse/FHIR-24046) |
 | FHIR-25076 | Fix null links - BC #52 | Triaged | 2019-10-28 | [FHIR-25076](./FHIR-25076.md) · [Jira](https://jira.hl7.org/browse/FHIR-25076) |
 | FHIR-25080 | Diagnostic Reports should be a reference, not composition - BC #57 | Triaged | 2019-10-28 | [FHIR-25080](./FHIR-25080.md) · [Jira](https://jira.hl7.org/browse/FHIR-25080) |
-| FHIR-25116 | Review Breast Cancer Therapeutic Area User Guide as a source | Triaged | 2019-10-30 | [FHIR-25116](./FHIR-25116.md) · [Jira](https://jira.hl7.org/browse/FHIR-25116) |
 | FHIR-25131 | this sentence needs to be rephrased. - BC #82 | Triaged | 2019-11-04 | [FHIR-25131](./FHIR-25131.md) · [Jira](https://jira.hl7.org/browse/FHIR-25131) |
 | FHIR-25132 | Fix missing logical models - BC #83 | Triaged | 2019-11-04 | [FHIR-25132](./FHIR-25132.md) · [Jira](https://jira.hl7.org/browse/FHIR-25132) |
 | FHIR-25135 | Verify Hyperlinks - BC #86 | Triaged | 2019-11-04 | [FHIR-25135](./FHIR-25135.md) · [Jira](https://jira.hl7.org/browse/FHIR-25135) |
@@ -46,11 +49,9 @@ This index lists all **35** prepared tickets for the **Clinical Interoperability
 | FHIR-25140 | Add sections – BC #90 | Triaged | 2019-11-04 | [FHIR-25140](./FHIR-25140.md) · [Jira](https://jira.hl7.org/browse/FHIR-25140) |
 | FHIR-25144 | Incorrect code structure - BC #95 | Triaged | 2019-11-04 | [FHIR-25144](./FHIR-25144.md) · [Jira](https://jira.hl7.org/browse/FHIR-25144) |
 | FHIR-25145 | Patient history needs to reference more than observation. - BC #96 | Triaged | 2019-11-04 | [FHIR-25145](./FHIR-25145.md) · [Jira](https://jira.hl7.org/browse/FHIR-25145) |
-| FHIR-25148 | Imaging study missing fields - BC #99 | Triaged | 2019-11-04 | [FHIR-25148](./FHIR-25148.md) · [Jira](https://jira.hl7.org/browse/FHIR-25148) |
 | FHIR-25149 | Must include at lease breast radiology report - BC #100 | Triaged | 2019-11-04 | [FHIR-25149](./FHIR-25149.md) · [Jira](https://jira.hl7.org/browse/FHIR-25149) |
 | FHIR-23891 | Profiles missing | Triaged | 2019-11-06 | [FHIR-23891](./FHIR-23891.md) · [Jira](https://jira.hl7.org/browse/FHIR-23891) |
 | FHIR-24052 | Breast Radiology: Mistakes in Textual Descriptions | Triaged | 2019-11-06 | [FHIR-24052](./FHIR-24052.md) · [Jira](https://jira.hl7.org/browse/FHIR-24052) |
-| FHIR-25063 | Clarify provenance - BC #11 | Triaged | 2019-11-06 | [FHIR-25063](./FHIR-25063.md) · [Jira](https://jira.hl7.org/browse/FHIR-25063) |
 | FHIR-25069 | Heading does not align with page contents | Triaged | 2019-11-06 | [FHIR-25069](./FHIR-25069.md) · [Jira](https://jira.hl7.org/browse/FHIR-25069) |
 | FHIR-25074 | Explain recursive BreastRadiologyReport reference - BC #50 | Triaged | 2019-11-06 | [FHIR-25074](./FHIR-25074.md) · [Jira](https://jira.hl7.org/browse/FHIR-25074) |
 | FHIR-25075 | Change links to modelling approach - BC #51 | Triaged | 2019-11-06 | [FHIR-25075](./FHIR-25075.md) · [Jira](https://jira.hl7.org/browse/FHIR-25075) |
@@ -62,6 +63,14 @@ This index lists all **35** prepared tickets for the **Clinical Interoperability
 | FHIR-25133 | Correct Version number and link - BC #84 | Triaged | 2019-11-06 | [FHIR-25133](./FHIR-25133.md) · [Jira](https://jira.hl7.org/browse/FHIR-25133) |
 | FHIR-25082 | The ballot appearrs to be in order with a few suggested typos - BC #67 | Triaged | 2019-11-10 | [FHIR-25082](./FHIR-25082.md) · [Jira](https://jira.hl7.org/browse/FHIR-25082) |
 | FHIR-38776 | Make Examples | Triaged | 2022-10-03 | [FHIR-38776](./FHIR-38776.md) · [Jira](https://jira.hl7.org/browse/FHIR-38776) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-25116 | Review Breast Cancer Therapeutic Area User Guide as a source | Triaged | 2019-10-30 | [FHIR-25116](./FHIR-25116.md) · [Jira](https://jira.hl7.org/browse/FHIR-25116) |
+| FHIR-25148 | Imaging study missing fields - BC #99 | Triaged | 2019-11-04 | [FHIR-25148](./FHIR-25148.md) · [Jira](https://jira.hl7.org/browse/FHIR-25148) |
+| FHIR-25063 | Clarify provenance - BC #11 | Triaged | 2019-11-06 | [FHIR-25063](./FHIR-25063.md) · [Jira](https://jira.hl7.org/browse/FHIR-25063) |
 
 ---
 

@@ -25,6 +25,17 @@ This index lists all **29** planned tickets for the **FHIR Infrastructure** work
 
 *These tickets do not reference a specific repository. Review each ticket to determine the target artifact.*
 
+#### Related Group: FHIR-53722
+
+> FHIR-53722 and FHIR-47199 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-53722 | Deprecated elements should be withdrawn where applicable in R6 | Resolved — change required | 2026-01-26 | [FHIR-53722](./FHIR-53722.md) · [Jira](https://jira.hl7.org/browse/FHIR-53722) |
+| FHIR-47199 | List of deprecated resources need update from R5 | Resolved — change required | — | [FHIR-47199](./FHIR-47199.md) · [Jira](https://jira.hl7.org/browse/FHIR-47199) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-40580 | Typo: HealthcareService is misspelled as HealthCareService | Resolved — change required | 2023-03-10 | [FHIR-40580](./FHIR-40580.md) · [Jira](https://jira.hl7.org/browse/FHIR-40580) |
@@ -32,10 +43,8 @@ This index lists all **29** planned tickets for the **FHIR Infrastructure** work
 | FHIR-43426 | Explain the use of "?" in Differential Elements on Detailed Description Tab | Resolved – change required | 2024-05-06 | [FHIR-43426](./FHIR-43426.md) · [Jira](https://jira.hl7.org/browse/FHIR-43426) |
 | FHIR-47623 | NamingSystem - link to managing organization | Resolved - change required | 2024-09-13 | [FHIR-47623](./FHIR-47623.md) · [Jira](https://jira.hl7.org/browse/FHIR-47623) |
 | FHIR-40600 | Typo in Resource Definitions spec | Resolved – change required | 2024-09-16 | [FHIR-40600](./FHIR-40600.md) · [Jira](https://jira.hl7.org/browse/FHIR-40600) |
-| FHIR-53722 | Deprecated elements should be withdrawn where applicable in R6 | Resolved — change required | 2026-01-26 | [FHIR-53722](./FHIR-53722.md) · [Jira](https://jira.hl7.org/browse/FHIR-53722) |
 | FHIR-55165 | Group.membership has no escape valve | Resolved - change required | 2026-03-16 | [FHIR-55165](./FHIR-55165.md) · [Jira](https://jira.hl7.org/browse/FHIR-55165) |
 | FHIR-44496 | Add missing "of" | Resolved — change required | — | [FHIR-44496](./FHIR-44496.md) · [Jira](https://jira.hl7.org/browse/FHIR-44496) |
-| FHIR-47199 | List of deprecated resources need update from R5 | Resolved — change required | — | [FHIR-47199](./FHIR-47199.md) · [Jira](https://jira.hl7.org/browse/FHIR-47199) |
 | FHIR-53636 | Clarify that Element.id prohibits all whitespace, not just the space character | Resolved – change required | — | [FHIR-53636](./FHIR-53636.md) · [Jira](https://jira.hl7.org/browse/FHIR-53636) |
 | FHIR-55156 | CapabilityStatement.rest.interaction.code has no escape valve | Resolved — change required | — | [FHIR-55156](./FHIR-55156.md) · [Jira](https://jira.hl7.org/browse/FHIR-55156) |
 

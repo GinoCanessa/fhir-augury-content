@@ -34,11 +34,20 @@ This index lists all **30** prepared tickets for the **Patient Administration** 
 
 *6 ticket(s) targeting the **Interoperable Digital Identity and Patient Matching (FHIR)** specification.*
 
+#### Related Group: FHIR-39629
+
+> FHIR-39629 and FHIR-40819 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-39629 | Matching Attributes need to relate to search time frame | Triaged | 2022-12-15 | [FHIR-39629](./FHIR-39629.md) · [Jira](https://jira.hl7.org/browse/FHIR-39629) |
-| FHIR-40302 | Additional identity text for V2 | Triaged | 2023-01-20 | [FHIR-40302](./FHIR-40302.md) · [Jira](https://jira.hl7.org/browse/FHIR-40302) |
 | FHIR-40819 | Ticket Prep for Workgroup Review | Triaged | 2023-04-17 | [FHIR-40819](./FHIR-40819.md) · [Jira](https://jira.hl7.org/browse/FHIR-40819) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-40302 | Additional identity text for V2 | Triaged | 2023-01-20 | [FHIR-40302](./FHIR-40302.md) · [Jira](https://jira.hl7.org/browse/FHIR-40302) |
 | FHIR-43284 | Clarify when to include B2B with User Authorization Extension Object | Triaged | 2023-11-28 | [FHIR-43284](./FHIR-43284.md) · [Jira](https://jira.hl7.org/browse/FHIR-43284) |
 | FHIR-44594 | Add Conformance Tab | Triaged | 2024-01-25 | [FHIR-44594](./FHIR-44594.md) · [Jira](https://jira.hl7.org/browse/FHIR-44594) |
 | FHIR-47704 | Create an example of how Digital Identifier appears in a SMART Health Card | Triaged | 2024-09-13 | [FHIR-47704](./FHIR-47704.md) · [Jira](https://jira.hl7.org/browse/FHIR-47704) |
@@ -49,10 +58,19 @@ This index lists all **30** prepared tickets for the **Patient Administration** 
 
 *3 ticket(s) targeting the **National Directory of Healthcare Providers and Services (NDH) (FHIR)** specification.*
 
+#### Related Group: FHIR-42638
+
+> FHIR-42638 and FHIR-42639 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-42638 | Elements of this specification should be defined in the core-extension set | Triaged | 2023-09-04 | [FHIR-42638](./FHIR-42638.md) · [Jira](https://jira.hl7.org/browse/FHIR-42638) |
 | FHIR-42639 | IHE actor and transaction indication | Triaged | 2023-09-04 | [FHIR-42639](./FHIR-42639.md) · [Jira](https://jira.hl7.org/browse/FHIR-42639) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
 | FHIR-55990 | How to show practitioner verification status in NDH | Triaged | 2026-03-02 | [FHIR-55990](./FHIR-55990.md) · [Jira](https://jira.hl7.org/browse/FHIR-55990) |
 
 ---
@@ -61,6 +79,10 @@ This index lists all **30** prepared tickets for the **Patient Administration** 
 
 *10 ticket(s) targeting the **Real Time Location Services (FHIR)** specification.*
 
+#### Related Group: FHIR-40879
+
+> FHIR-40879 and FHIR-40965, FHIR-40968, FHIR-40969, FHIR-40970, FHIR-41167 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-40879 | Missing details related to the transactions/interactions | Triaged | 2023-04-21 | [FHIR-40879](./FHIR-40879.md) · [Jira](https://jira.hl7.org/browse/FHIR-40879) |
@@ -68,11 +90,18 @@ This index lists all **30** prepared tickets for the **Patient Administration** 
 | FHIR-40968 | Suggest using udiCarrier in the RTLS Tag Device Profile | Triaged | 2023-04-26 | [FHIR-40968](./FHIR-40968.md) · [Jira](https://jira.hl7.org/browse/FHIR-40968) |
 | FHIR-40969 | Add udiCarrier in the RTLS Device example | Triaged | 2023-04-26 | [FHIR-40969](./FHIR-40969.md) · [Jira](https://jira.hl7.org/browse/FHIR-40969) |
 | FHIR-40970 | Add udiCarrier in the Location Update Event example | Triaged | 2023-04-26 | [FHIR-40970](./FHIR-40970.md) · [Jira](https://jira.hl7.org/browse/FHIR-40970) |
+| FHIR-41167 | No need to use FHIR Messaging when simpler interactions serve the same purpose | Triaged | 2023-05-02 | [FHIR-41167](./FHIR-41167.md) · [Jira](https://jira.hl7.org/browse/FHIR-41167) |
+
+#### Related Group: FHIR-41063
+
+> FHIR-41063 and FHIR-41064, FHIR-41065, FHIR-41066 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
 | FHIR-41063 | Should the official URL be anchored in terminology.hl7.org, not hl7.org/fhir? 1 | Triaged | 2023-05-01 | [FHIR-41063](./FHIR-41063.md) · [Jira](https://jira.hl7.org/browse/FHIR-41063) |
 | FHIR-41064 | Should the official URL be anchored in terminology.hl7.org, not hl7.org/fhir? 2 | Triaged | 2023-05-01 | [FHIR-41064](./FHIR-41064.md) · [Jira](https://jira.hl7.org/browse/FHIR-41064) |
 | FHIR-41065 | Should the official URL be anchored in terminology.hl7.org, not hl7.org/fhir? 3 | Triaged | 2023-05-01 | [FHIR-41065](./FHIR-41065.md) · [Jira](https://jira.hl7.org/browse/FHIR-41065) |
 | FHIR-41066 | Should the official URL be anchored in terminology.hl7.org, not hl7.org/fhir? 4 | Triaged | 2023-05-01 | [FHIR-41066](./FHIR-41066.md) · [Jira](https://jira.hl7.org/browse/FHIR-41066) |
-| FHIR-41167 | No need to use FHIR Messaging when simpler interactions serve the same purpose | Triaged | 2023-05-02 | [FHIR-41167](./FHIR-41167.md) · [Jira](https://jira.hl7.org/browse/FHIR-41167) |
 
 ---
 

@@ -39,13 +39,22 @@ This index lists all **37** prepared tickets for the **Clinical Decision Support
 
 *6 ticket(s) targeting the **CDS Hooks Library (FHIR)** specification.*
 
+#### Related Group: FHIR-42368
+
+> FHIR-42368 and FHIR-42369 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-42368 | appoint-book workflow requires improvement | Triaged | 2023-09-01 | [FHIR-42368](./FHIR-42368.md) · [Jira](https://jira.hl7.org/browse/FHIR-42368) |
+| FHIR-42369 | encounter-start workflow unclear | Triaged | 2023-09-01 | [FHIR-42369](./FHIR-42369.md) · [Jira](https://jira.hl7.org/browse/FHIR-42369) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-25763 | Include episodeOfCare | Triaged | 2020-02-03 | [FHIR-25763](./FHIR-25763.md) · [Jira](https://jira.hl7.org/browse/FHIR-25763) |
 | FHIR-42138 | Suggest Adding Guidance to Order Select Hook Section | Triaged | 2023-08-31 | [FHIR-42138](./FHIR-42138.md) · [Jira](https://jira.hl7.org/browse/FHIR-42138) |
 | FHIR-42139 | Suggest word revision to Appointment Book section | Triaged | 2023-08-31 | [FHIR-42139](./FHIR-42139.md) · [Jira](https://jira.hl7.org/browse/FHIR-42139) |
-| FHIR-42368 | appoint-book workflow requires improvement | Triaged | 2023-09-01 | [FHIR-42368](./FHIR-42368.md) · [Jira](https://jira.hl7.org/browse/FHIR-42368) |
-| FHIR-42369 | encounter-start workflow unclear | Triaged | 2023-09-01 | [FHIR-42369](./FHIR-42369.md) · [Jira](https://jira.hl7.org/browse/FHIR-42369) |
 | FHIR-42420 | Add documentation of implementation supporting maturity | Triaged | 2023-09-01 | [FHIR-42420](./FHIR-42420.md) · [Jira](https://jira.hl7.org/browse/FHIR-42420) |
 
 ---
@@ -68,17 +77,26 @@ This index lists all **37** prepared tickets for the **Clinical Decision Support
 
 *10 ticket(s) targeting the **Clinical Guidelines (FHIR)** specification.*
 
+#### Related Group: FHIR-36652
+
+> FHIR-36652 and FHIR-44697 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-36652 | Questionnaire triggering based on PlanDefinitions | Triaged | 2022-03-28 | [FHIR-36652](./FHIR-36652.md) · [Jira](https://jira.hl7.org/browse/FHIR-36652) |
+| FHIR-44697 | Add an example IG that illustrates Questionnaire usage as part of a CPG | Triaged | 2024-02-07 | [FHIR-44697](./FHIR-44697.md) · [Jira](https://jira.hl7.org/browse/FHIR-44697) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-26662 | Review comments on BPMN to FHIR PlanDefinition | Triaged | 2020-03-30 | [FHIR-26662](./FHIR-26662.md) · [Jira](https://jira.hl7.org/browse/FHIR-26662) |
 | FHIR-27161 | Add ability to model data flow within CPGWorkflowDefinition | Triaged | 2020-05-18 | [FHIR-27161](./FHIR-27161.md) · [Jira](https://jira.hl7.org/browse/FHIR-27161) |
 | FHIR-28229 | Consider characterizations of enablement and impact/outcome | Triaged | 2020-08-08 | [FHIR-28229](./FHIR-28229.md) · [Jira](https://jira.hl7.org/browse/FHIR-28229) |
-| FHIR-36652 | Questionnaire triggering based on PlanDefinitions | Triaged | 2022-03-28 | [FHIR-36652](./FHIR-36652.md) · [Jira](https://jira.hl7.org/browse/FHIR-36652) |
 | FHIR-40539 | Add ObservationDefinition support to PlanDefinition/ActivityDefinition patterns | Triaged | 2023-02-27 | [FHIR-40539](./FHIR-40539.md) · [Jira](https://jira.hl7.org/browse/FHIR-40539) |
 | FHIR-40609 | Add an activity for documenting a clinical impression | Triaged | 2023-03-15 | [FHIR-40609](./FHIR-40609.md) · [Jira](https://jira.hl7.org/browse/FHIR-40609) |
 | FHIR-44068 | Support client-specific response configuration | Triaged | 2024-01-22 | [FHIR-44068](./FHIR-44068.md) · [Jira](https://jira.hl7.org/browse/FHIR-44068) |
 | FHIR-44155 | Alternative approach to computable practice guidelines not previously considered | Triaged | 2024-01-22 | [FHIR-44155](./FHIR-44155.md) · [Jira](https://jira.hl7.org/browse/FHIR-44155) |
-| FHIR-44697 | Add an example IG that illustrates Questionnaire usage as part of a CPG | Triaged | 2024-02-07 | [FHIR-44697](./FHIR-44697.md) · [Jira](https://jira.hl7.org/browse/FHIR-44697) |
 | FHIR-44914 | Add support for case feature patterns | Triaged | 2024-03-07 | [FHIR-44914](./FHIR-44914.md) · [Jira](https://jira.hl7.org/browse/FHIR-44914) |
 
 ---

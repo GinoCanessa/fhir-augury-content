@@ -37,6 +37,10 @@ This index lists all **34** prepared tickets for the **Biomedical Research Regul
 
 *2 ticket(s) targeting the **CDISC Mappings (FHIR)** specification.*
 
+#### Related Group: FHIR-30521
+
+> FHIR-30521 and FHIR-30527 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-30521 | Consider mapping LOINC to CDISC | Triaged | 2021-01-22 | [FHIR-30521](./FHIR-30521.md) · [Jira](https://jira.hl7.org/browse/FHIR-30521) |
@@ -71,21 +75,41 @@ This index lists all **34** prepared tickets for the **Biomedical Research Regul
 
 *7 ticket(s) targeting the **FHIR to OMOP FHIR IG (FHIR)** specification.*
 
+#### Related Group: FHIR-51585
+
+> FHIR-51585 and FHIR-51552, FHIR-51583, FHIR-52777 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-51585 | value-as-concept directions should use relationships in the vocabulary, not separate text lookups | Resolved — change required | 2025-07-29 | [FHIR-51585](./FHIR-51585.md) · [Jira](https://jira.hl7.org/browse/FHIR-51585) |
-| FHIR-51675 | Cardinality & Coding | Resolved - No Change | 2025-08-07 | [FHIR-51675](./FHIR-51675.md) · [Jira](https://jira.hl7.org/browse/FHIR-51675) |
-| FHIR-52202 | Date/time | Applied | 2025-09-16 | [FHIR-52202](./FHIR-52202.md) · [Jira](https://jira.hl7.org/browse/FHIR-52202) |
-| FHIR-51673 | Type Misuse or Clarification | Applied | 2026-03-12 | [FHIR-51673](./FHIR-51673.md) · [Jira](https://jira.hl7.org/browse/FHIR-51673) |
 | FHIR-51552 | observation.qualifier_source_value with no concept | Applied | 2026-03-13 | [FHIR-51552](./FHIR-51552.md) · [Jira](https://jira.hl7.org/browse/FHIR-51552) |
 | FHIR-51583 | Using qualifier_source_value as a generic tag | Applied | 2026-03-13 | [FHIR-51583](./FHIR-51583.md) · [Jira](https://jira.hl7.org/browse/FHIR-51583) |
 | FHIR-52777 | Include guidance for navigating concept relationships to find a standard code beyond parent/child | Resolved — change required | 2026-03-13 | [FHIR-52777](./FHIR-52777.md) · [Jira](https://jira.hl7.org/browse/FHIR-52777) |
+
+#### Related Group: FHIR-51675
+
+> FHIR-51675 and FHIR-51673 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-51675 | Cardinality & Coding | Resolved - No Change | 2025-08-07 | [FHIR-51675](./FHIR-51675.md) · [Jira](https://jira.hl7.org/browse/FHIR-51675) |
+| FHIR-51673 | Type Misuse or Clarification | Applied | 2026-03-12 | [FHIR-51673](./FHIR-51673.md) · [Jira](https://jira.hl7.org/browse/FHIR-51673) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-52202 | Date/time | Applied | 2025-09-16 | [FHIR-52202](./FHIR-52202.md) · [Jira](https://jira.hl7.org/browse/FHIR-52202) |
 
 ---
 
 ## Pharmaceutical Quality (Industry) (FHIR)
 
 *4 ticket(s) targeting the **Pharmaceutical Quality (Industry) (FHIR)** specification.*
+
+#### Related Group: FHIR-44029
+
+> FHIR-44029 and FHIR-44037, FHIR-44038, FHIR-44041 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
 
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
@@ -100,6 +124,10 @@ This index lists all **34** prepared tickets for the **Biomedical Research Regul
 
 *3 ticket(s) targeting the **Retrieval of Real World Data for Clinical Research (FHIR)** specification.*
 
+#### Related Group: FHIR-39905
+
+> FHIR-39905 and FHIR-40098, FHIR-40126 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-39905 | Include Device profile for RWD | Triaged | 2023-01-06 | [FHIR-39905](./FHIR-39905.md) · [Jira](https://jira.hl7.org/browse/FHIR-39905) |
@@ -111,6 +139,10 @@ This index lists all **34** prepared tickets for the **Biomedical Research Regul
 ## Single Institutional Review Board (sIRB) (FHIR)
 
 *3 ticket(s) targeting the **Single Institutional Review Board (sIRB) (FHIR)** specification.*
+
+#### Related Group: FHIR-40057
+
+> FHIR-40057 and FHIR-40058, FHIR-40059 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
 
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
@@ -134,6 +166,10 @@ This index lists all **34** prepared tickets for the **Biomedical Research Regul
 ## US ICSR Transfusion and Vaccination Adverse Event Detection and Reporting (FHIR)
 
 *2 ticket(s) targeting the **US ICSR Transfusion and Vaccination Adverse Event Detection and Reporting (FHIR)** specification.*
+
+#### Related Group: FHIR-33377
+
+> FHIR-33377 and FHIR-34589 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
 
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|

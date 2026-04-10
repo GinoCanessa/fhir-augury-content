@@ -41,13 +41,29 @@ This index lists all **44** prepared tickets for the **Public Health** work grou
 
 *5 ticket(s) targeting the **Electronic Case Reporting [deprecated] (FHIR)** specification.*
 
+#### Related Group: FHIR-15173
+
+> FHIR-15173 and FHIR-15265 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-15173 | Index - No summary was provided by the commenter. - 2018-Jan eCR #4 | Triaged | 2018-02-08 | [FHIR-15173](./FHIR-15173.md) · [Jira](https://jira.hl7.org/browse/FHIR-15173) |
-| FHIR-15196 | Profiles - No summary was provided by the commenter. - 2018-Jan eCR #18 | Triaged | 2018-02-08 | [FHIR-15196](./FHIR-15196.md) · [Jira](https://jira.hl7.org/browse/FHIR-15196) |
-| FHIR-15212 | Ticket Preparation Report | Triaged | 2018-02-08 | [FHIR-15212](./FHIR-15212.md) · [Jira](https://jira.hl7.org/browse/FHIR-15212) |
 | FHIR-15265 | Location Clarification — eCR IG | Triaged | 2018-02-08 | [FHIR-15265](./FHIR-15265.md) · [Jira](https://jira.hl7.org/browse/FHIR-15265) |
+
+#### Related Group: FHIR-15196
+
+> FHIR-15196 and FHIR-15326 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-15196 | Profiles - No summary was provided by the commenter. - 2018-Jan eCR #18 | Triaged | 2018-02-08 | [FHIR-15196](./FHIR-15196.md) · [Jira](https://jira.hl7.org/browse/FHIR-15196) |
 | FHIR-15326 | Update re TEFCA | Triaged | 2018-08-08 | [FHIR-15326](./FHIR-15326.md) · [Jira](https://jira.hl7.org/browse/FHIR-15326) |
+
+#### Other Tickets
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-15212 | Ticket Preparation Report | Triaged | 2018-02-08 | [FHIR-15212](./FHIR-15212.md) · [Jira](https://jira.hl7.org/browse/FHIR-15212) |
 
 ---
 
@@ -75,11 +91,20 @@ This index lists all **44** prepared tickets for the **Public Health** work grou
 
 *3 ticket(s) targeting the **Situation Awareness for Novel Epidemic Response (FHIR) (SANER)** specification.*
 
+#### Related Group: FHIR-29848
+
+> FHIR-29848 and FHIR-29854 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-29848 | Actor requirements listed in Transaction requirements | Triaged | 2020-12-03 | [FHIR-29848](./FHIR-29848.md) · [Jira](https://jira.hl7.org/browse/FHIR-29848) |
+| FHIR-29854 | Actor requirements listed in Transaction requirements section | Triaged | 2020-12-03 | [FHIR-29854](./FHIR-29854.md) · [Jira](https://jira.hl7.org/browse/FHIR-29854) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-29446 | Consider incorporating concept map from HAVBED to CDC Vocabulary for Bed Location | Triaged | 2020-10-26 | [FHIR-29446](./FHIR-29446.md) · [Jira](https://jira.hl7.org/browse/FHIR-29446) |
-| FHIR-29848 | Actor requirements listed in Transaction requirements | Triaged | 2020-12-03 | [FHIR-29848](./FHIR-29848.md) · [Jira](https://jira.hl7.org/browse/FHIR-29848) |
-| FHIR-29854 | Actor requirements listed in Transaction requirements section | Triaged | 2020-12-03 | [FHIR-29854](./FHIR-29854.md) · [Jira](https://jira.hl7.org/browse/FHIR-29854) |
 
 ---
 
@@ -97,20 +122,43 @@ This index lists all **44** prepared tickets for the **Public Health** work grou
 
 *15 ticket(s) targeting the **US Bidirectional Services eReferrals (BSeR) (FHIR)** specification.*
 
+#### Related Group: FHIR-18206
+
+> FHIR-18206 and FHIR-18248 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-18206 | Relationship between Observations and DAM | Triaged | 2018-09-24 | [FHIR-18206](./FHIR-18206.md) · [Jira](https://jira.hl7.org/browse/FHIR-18206) |
+| FHIR-18248 | Unclear how to send tobacco cessation unique observations | Triaged | 2018-09-24 | [FHIR-18248](./FHIR-18248.md) · [Jira](https://jira.hl7.org/browse/FHIR-18248) |
+
+#### Related Group: FHIR-18252
+
+> FHIR-18252 and FHIR-42220 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-18252 | Only 1 allergy seems to be permitted | Triaged | 2018-09-24 | [FHIR-18252](./FHIR-18252.md) · [Jira](https://jira.hl7.org/browse/FHIR-18252) |
+| FHIR-42220 | Relax cardinality on Task.for | Triaged | 2023-08-31 | [FHIR-42220](./FHIR-42220.md) · [Jira](https://jira.hl7.org/browse/FHIR-42220) |
+
+#### Related Group: FHIR-18254
+
+> FHIR-18254 and FHIR-18255 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-18254 | Unclear why their is class diagram here | Triaged | 2018-09-24 | [FHIR-18254](./FHIR-18254.md) · [Jira](https://jira.hl7.org/browse/FHIR-18254) |
+| FHIR-18255 | Guidance on how to USE the artifacts | Triaged | 2018-09-24 | [FHIR-18255](./FHIR-18255.md) · [Jira](https://jira.hl7.org/browse/FHIR-18255) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-18205 | Arthritis Observation has code inconsistency | Triaged | 2018-09-24 | [FHIR-18205](./FHIR-18205.md) · [Jira](https://jira.hl7.org/browse/FHIR-18205) |
-| FHIR-18206 | Relationship between Observations and DAM | Triaged | 2018-09-24 | [FHIR-18206](./FHIR-18206.md) · [Jira](https://jira.hl7.org/browse/FHIR-18206) |
 | FHIR-18214 | Observation.status and Observation.code are inconsistent between observation profiles | Triaged | 2018-09-24 | [FHIR-18214](./FHIR-18214.md) · [Jira](https://jira.hl7.org/browse/FHIR-18214) |
 | FHIR-18215 | Should Body Height valueQuantity be constrained to centimeters? | Triaged | 2018-09-24 | [FHIR-18215](./FHIR-18215.md) · [Jira](https://jira.hl7.org/browse/FHIR-18215) |
-| FHIR-18248 | Unclear how to send tobacco cessation unique observations | Triaged | 2018-09-24 | [FHIR-18248](./FHIR-18248.md) · [Jira](https://jira.hl7.org/browse/FHIR-18248) |
-| FHIR-18252 | Only 1 allergy seems to be permitted | Triaged | 2018-09-24 | [FHIR-18252](./FHIR-18252.md) · [Jira](https://jira.hl7.org/browse/FHIR-18252) |
-| FHIR-18254 | Unclear why their is class diagram here | Triaged | 2018-09-24 | [FHIR-18254](./FHIR-18254.md) · [Jira](https://jira.hl7.org/browse/FHIR-18254) |
-| FHIR-18255 | Guidance on how to USE the artifacts | Triaged | 2018-09-24 | [FHIR-18255](./FHIR-18255.md) · [Jira](https://jira.hl7.org/browse/FHIR-18255) |
 | FHIR-18250 | Broken Links to Common Transaction Profiles | Triaged | **Type:** Change Request | **Priority:** Medium | 2018-09-24 | **Updated:** 2019-02-23 | [FHIR-18250](./FHIR-18250.md) · [Jira](https://jira.hl7.org/browse/FHIR-18250) |
 | FHIR-21649 | Consider profiling ServiceRequest with slices for supporting information | Triaged | 2019-05-07 | [FHIR-21649](./FHIR-21649.md) · [Jira](https://jira.hl7.org/browse/FHIR-21649) |
 | FHIR-22602 | Include brief intro section to all profiles? (Similar to that for BSeR Arthritis Feedback Observation) - BSeR #138 | Triaged | 2019-08-29 | [FHIR-22602](./FHIR-22602.md) · [Jira](https://jira.hl7.org/browse/FHIR-22602) |
-| FHIR-42220 | Relax cardinality on Task.for | Triaged | 2023-08-31 | [FHIR-42220](./FHIR-42220.md) · [Jira](https://jira.hl7.org/browse/FHIR-42220) |
 | FHIR-42519 | Why does Task not have standard codes for inputs and outputs? | Triaged | 2023-09-02 | [FHIR-42519](./FHIR-42519.md) · [Jira](https://jira.hl7.org/browse/FHIR-42519) |
 | FHIR-42533 | CBO Hub or Healthcare Information Exchange (HIE) Options | Triaged | 2023-09-02 | [FHIR-42533](./FHIR-42533.md) · [Jira](https://jira.hl7.org/browse/FHIR-42533) |
 | FHIR-42534 | CBOs and Subscriptions | Triaged | 2023-09-02 | [FHIR-42534](./FHIR-42534.md) · [Jira](https://jira.hl7.org/browse/FHIR-42534) |
@@ -141,11 +189,20 @@ This index lists all **44** prepared tickets for the **Public Health** work grou
 
 *3 ticket(s) targeting the **US Healthcare Associated Infections (FHIR)** specification.*
 
+#### Related Group: FHIR-23726
+
+> FHIR-23726 and FHIR-23727 are related and should be worked together. They reference each other in their prerequisites or related-tickets sections — complete them in the listed order.
+
+| Key | Title | Status | Date | Links |
+|-----|-------|--------|------|-------|
+| FHIR-23726 | Are the HAI-LTCF value sets used? | Triaged | 2019-08-20 | [FHIR-23726](./FHIR-23726.md) · [Jira](https://jira.hl7.org/browse/FHIR-23726) |
+| FHIR-23727 | Not sure what the "other resources" are in HAI-LTCF | Triaged | 2019-08-20 | [FHIR-23727](./FHIR-23727.md) · [Jira](https://jira.hl7.org/browse/FHIR-23727) |
+
+#### Other Tickets
+
 | Key | Title | Status | Date | Links |
 |-----|-------|--------|------|-------|
 | FHIR-21647 | Consider updating from FHIR R3 to FHIR R4 | Triaged | 2019-05-07 | [FHIR-21647](./FHIR-21647.md) · [Jira](https://jira.hl7.org/browse/FHIR-21647) |
-| FHIR-23726 | Are the HAI-LTCF value sets used? | Triaged | 2019-08-20 | [FHIR-23726](./FHIR-23726.md) · [Jira](https://jira.hl7.org/browse/FHIR-23726) |
-| FHIR-23727 | Not sure what the "other resources" are in HAI-LTCF | Triaged | 2019-08-20 | [FHIR-23727](./FHIR-23727.md) · [Jira](https://jira.hl7.org/browse/FHIR-23727) |
 
 ---
 
